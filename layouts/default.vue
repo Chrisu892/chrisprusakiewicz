@@ -3,7 +3,7 @@
     <header id="header" class="header">
       <div class="inner header__container">
         <div class="header__main">
-          <nuxt-link to="/" title="Go back to homepage" class="header__logo">CP</nuxt-link>
+          <TheLogo />
         </div>
         <div class="header__nav">
           <div class="header__language">
@@ -11,8 +11,8 @@
             <span class="header__language__divider">|</span>
             <nuxt-link to="/pl/" class="header__language__toggle">PL</nuxt-link>
           </div>
-          <NavToggle @toggle="toggleNav()" />
-          <TheNav :class="{ 'active': navActive }" />
+          <NavToggle />
+          <TheNav />
         </div>
       </div>
     </header>
@@ -21,22 +21,14 @@
 </template>
 
 <script>
+  import TheLogo from '@/components/TheLogo'
   import NavToggle from '@/components/NavToggle'
 
   export default {
     components: {
+      TheLogo,
       NavToggle,
     },
-    data() {
-      return {
-        navActive: false,
-      }
-    },
-    methods: {
-      toggleNav() {
-        this.navActive = !this.navActive
-      }
-    }
   }
 </script>
 
@@ -47,7 +39,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
     color: $clr-white;
   }
   .header__container {

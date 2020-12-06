@@ -6,4 +6,8 @@ export default {
     Vue.set(state, payload.name, payload.data)
   },
 
+  TOGGLE_NAV(state) {
+    state.showNav = !state.showNav
+  }
+
 }

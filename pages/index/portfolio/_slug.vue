@@ -1,29 +1,36 @@
 <template>
   <article class="project">
     <div class="project__wrap">
-      <div class="project__image bottom-shader">
-        <img src="/images/portfolio/aristocrat-london/thumb@2x.jpg" />
+      <div v-if="page.image1" class="project__image bottom-shader">
+        <picture>
+          <source media="(max-width:768px)" :srcset="page.image1.small" />
+          <img :src="page.image1.large" :alt="page.title1" />
+        </picture>
         <div class="project__scroll">&#10095;</div>
       </div>
-      <div class="project__content">
-        <h2 class="project__title">Project Subtitle</h2>
-        <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p>
-        <p class="project__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>
+      <div v-if="page.title1 || page.content1" class="project__content">
+        <h2 v-if="page.title1" class="project__title">{{ page.title1 }}</h2>
+        <div v-if="page.content1" class="project__text" v-html="page.content1" />
       </div>
-      <div class="project__image shader">
-        <img src="/images/portfolio/aristocrat-london/thumb@2x.jpg" />
+      <div v-if="page.image2" class="project__image shader">
+        <picture>
+          <source media="(max-width:768px)" :srcset="page.image2.small" />
+          <img :src="page.image1.large" :alt="page.title2" />
+        </picture>
       </div>
-      <div class="project__content">
-        <h2 class="project__title">Project Subtitle</h2>
-        <p class="project__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque omnis tempore quam nulla rem, temporibus similique soluta quas nihil officiis maxime sunt corrupti deleniti exercitationem cum architecto, nisi non! Impedit.</p>
-        <p class="project__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem architecto laudantium, optio similique sed dolorem soluta odio reiciendis perferendis nemo, eos mollitia recusandae animi fugiat aspernatur fuga! Perspiciatis, ad magni?</p>
+      <div v-if="page.title2 || page.content2" class="project__content">
+        <h2 v-if="page.title2" class="project__title">{{ page.title2 }}</h2>
+        <div v-if="page.content2" class="project__text" v-html="page.content2" />
       </div>
-      <div class="project__image shader">
-        <img src="/images/portfolio/aristocrat-london/thumb@2x.jpg" />
+      <div v-if="page.image3" class="project__image shader">
+        <picture>
+          <source media="(max-width:768px)" :srcset="page.image3.small" />
+          <img :src="page.image3.large" :alt="page.title3" />
+        </picture>
       </div>
-      <div class="project__content">
-        <h2 class="project__title">Project Subtitle</h2>
-        <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos aspernatur ad corrupti doloribus magni corporis. Sit id impedit molestias, tempore culpa fugiat, repellendus illo unde atque laboriosam perspiciatis voluptatibus.</p>
+      <div v-if="page.title3 || page.content3" class="project__content">
+        <h2 v-if="page.title3" class="project__title">{{ page.title3 }}</h2>
+        <div v-if="page.content3" class="project__text" v-html="page.content3" />
       </div>
     </div>
   </article>

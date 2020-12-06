@@ -1,5 +1,5 @@
 <template>
-  <button type="button" class="nav-toggle" :class="{ 'active': active }" @click="toggle()">
+  <button type="button" class="nav-toggle" :class="{ 'active': isActive }" @click="toggle()">
     <span />
     <span />
     <span />
@@ -8,15 +8,14 @@
 
 <script>
   export default {
-    data() {
-      return {
-        active: false,
+    computed: {
+      isActive() {
+        return this.$store.state.showNav
       }
     },
     methods: {
       toggle() {
-        this.active = !this.active
-        this.$emit('toggle')
+        this.$store.dispatch('toggleNav')
       }
     }
   }

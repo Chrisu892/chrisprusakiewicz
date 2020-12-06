@@ -1,38 +1,39 @@
 <template>
   <main id="main" class="main index">
-    <section class="hero">
-      <div class="hero__column video">
-        <nuxt-child />
-      </div>
-      <div class="hero__column text">
-        <div class="hero__content">
-          <div class="hero__text">
-            <!-- <nuxt-link v-if="childPage" to="/" title="Go back">Go Back</nuxt-link> -->
-            <p v-if="page.caption" class="hero__caption"><strong>{{ page.caption }}</strong></p>
-            <h1 v-if="page.title" class="hero__title">{{ page.title }}</h1>
-            <p v-if="page.tagline" class="hero__tagline">{{ page.tagline }}</p>
+    <section class="hero" :class="{ 'swap': swap }">
+      
+        <div class="hero__column video">
+          <nuxt-child />
+        </div>
+        <div class="hero__column text">
+          <div class="hero__content">
+            <div class="hero__text animate">
+              <p v-if="page.caption" class="hero__caption"><strong>{{ page.caption }}</strong></p>
+              <h1 v-if="page.title" class="hero__title">{{ page.title }}</h1>
+              <p v-if="page.tagline" class="hero__tagline">{{ page.tagline }}</p>
+            </div>
+            <div v-if="page.action" class="hero__actions animate delay">
+              <a v-if="isExternal()" :href="page.action.link" :title="page.action.title" target="_blank" class="button">
+                <span class="button__title">{{ page.action.title }}</span>
+              </a>
+              <nuxt-link v-else :to="page.action.link" :title="page.action.title" class="button">
+                <span class="button__title">{{ page.action.title }}</span>
+              </nuxt-link>
+            </div>
           </div>
-          <div v-if="page.action" class="hero__actions">
-            <a v-if="isExternal()" :href="page.action.link" :title="page.action.title" target="_blank" class="button">
-              <span class="button__title">{{ page.action.title }}</span>
+          <div class="hero__socials">
+            <a href="https://www.linkedin.com/chris-prusakiewicz" class="hero__social" target="_blank" title="Visit my LinkedIn profile">
+              LinkedIn
             </a>
-            <nuxt-link v-else :to="page.action.link" :title="page.action.title" class="button">
-              <span class="button__title">{{ page.action.title }}</span>
-            </nuxt-link>
+            <a href="https://www.github.com/Chrisu892" class="hero__social" target="_blank" title="Visit my GitHub profile">
+              GitHub
+            </a>
+            <a href="https://www.behance.com/chrisu892" class="hero__social" target="_blank" title="Visit my Behance profile">
+              Behance
+            </a>
           </div>
         </div>
-        <div class="hero__socials">
-          <a href="https://www.linkedin.com/chris-prusakiewicz" class="hero__social" target="_blank" title="Visit my LinkedIn profile">
-            LinkedIn
-          </a>
-          <a href="https://www.github.com/Chrisu892" class="hero__social" target="_blank" title="Visit my GitHub profile">
-            GitHub
-          </a>
-          <a href="https://www.behance.com/chrisu892" class="hero__social" target="_blank" title="Visit my Behance profile">
-            Behance
-          </a>
-        </div>
-      </div>
+
     </section>
   </main>
 </template>
@@ -42,6 +43,9 @@
     computed: {
       page() {
         return this.$store.state.page
+      },
+      swap() {
+        return this.page.slug != 'index'
       }
     },
     methods: {
@@ -53,6 +57,16 @@
 </script>
 
 <style scoped lang="scss">
+  .page-enter-active,
+  .page-leave-active {
+    transition: all 300ms ease;
+  }
+  .page-enter,
+  .page-leave-active {
+    opacity: 0;
+    transform-origin: 50% 50%;
+  }
+
   .hero {
     @include flex-row;
     height: 100vh;
@@ -98,6 +112,7 @@
     font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 1px;
+    opacity: 1;
   }
   .hero__title {
     font-size: 2.8em;
@@ -237,6 +252,45 @@
     &:hover::before {
       transform: rotateY(0deg);
       opacity: 1;
+    }
+  }
+
+  // Enter-Leave Animations
+  
+  @keyframes enter {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes leave {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+  }
+  .animate {
+    animation: enter 400ms ease forwards;
+
+    &.delay {
+      opacity: 0;
+      animation-delay: 100ms;
+    }
+  }
+  .animate-leave {
+    animation: leave 400ms ease forwards;
+
+    &.delay {
+      opacity: 1;
+      animation-delay: 100ms;
     }
   }
 </style>

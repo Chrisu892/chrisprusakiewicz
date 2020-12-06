@@ -6,5 +6,22 @@
   "thumbnail": {
     "large": "/images/portfolio/argla/thumb@2x.jpg",
     "small": "/images/portfolio/argla/thumb.jpg"
-  }
+  },
+  "action": {
+    "link": "http://www.argla.co.uk/",
+    "title": "Live Preview",
+    "external": true
+  },
+  "image1": {
+    "large": "/images/portfolio/argla/thumb@2x.jpg",
+    "small": "/images/portfolio/argla/thumb.jpg"
+  },
+  "title1": "Brochure website for aluminium and steel manufacturers",
+  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "image2": {
+    "large": "/images/portfolio/argla/thumb@2x.jpg",
+    "small": "/images/portfolio/argla/thumb.jpg"
+  },
+  "title2": "Built to showcase portfolio",
+  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
 }

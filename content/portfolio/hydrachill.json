@@ -6,5 +6,28 @@
   "thumbnail": {
     "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
     "small": "/images/portfolio/hydrachill/thumb.jpg"
-  }
+  },
+  "action": {
+    "title": "Live Preview",
+    "link": "https://www.hydrachill.com/",
+    "external": true
+  },
+  "image1": {
+    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
+    "small": "/images/portfolio/hydrachill/thumb.jpg"
+  },
+  "title1": "Ecommerce website for a fashion designer",
+  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "image2": {
+    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
+    "small": "/images/portfolio/hydrachill/thumb.jpg"
+  },
+  "title2": "Built to increase sales",
+  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "image3": {
+    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
+    "small": "/images/portfolio/hydrachill/thumb.jpg"
+  },
+  "title3": "Optimised for Search Engines",
+  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
 }
