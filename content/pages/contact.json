@@ -1,0 +1,10 @@
+{
+  "title": "Get in Touch",
+  "tagline": "Whether you want to say hello or talk about your project, please don't hesitate to get in touch",
+  "status": "live",
+  "action": {
+    "link": "mailto:chris.prusakiewicz@gmail.com",
+    "title": "Send a Message",
+    "external": true
+  }
+}

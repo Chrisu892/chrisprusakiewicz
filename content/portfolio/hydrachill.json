@@ -1,0 +1,10 @@
+{
+  "title": "HydraChill",
+  "path": "/portfolio/hydrachill/",
+  "slug": "hydrachill",
+  "status": "live",
+  "thumbnail": {
+    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
+    "small": "/images/portfolio/hydrachill/thumb.jpg"
+  }
+}

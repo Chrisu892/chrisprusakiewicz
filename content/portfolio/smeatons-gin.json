@@ -1,0 +1,10 @@
+{
+  "title": "Smeaton's Gin",
+  "path": "/portfolio/smeatons-gin/",
+  "slug": "smeatons-gin",
+  "status": "live",
+  "thumbnail": {
+    "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
+    "small": "/images/portfolio/smeatons-gin/thumb.jpg"
+  }
+}

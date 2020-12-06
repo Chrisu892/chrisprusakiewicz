@@ -1,0 +1,10 @@
+{
+  "title": "ARGLA",
+  "path": "/portfolio/argla/",
+  "slug": "argla",
+  "status": "live",
+  "thumbnail": {
+    "large": "/images/portfolio/argla/thumb@2x.jpg",
+    "small": "/images/portfolio/argla/thumb.jpg"
+  }
+}

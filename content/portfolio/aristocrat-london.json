@@ -1,0 +1,16 @@
+{
+  "title": "Aristocrat London",
+  "tagline": "Ecommerce website for a fashion designer",
+  "path": "/portfolio/aristocrat-london/",
+  "slug": "aristocrat-london",
+  "status": "live",
+  "thumbnail": {
+    "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
+    "small": "/images/portfolio/aristocrat-london/thumb.jpg"
+  },
+  "action": {
+    "link": "https://www.aristocratlondon.co.uk/",
+    "title": "Preview Live",
+    "external": true
+  }
+}

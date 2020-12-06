@@ -1,0 +1,10 @@
+{
+  "title": "Woodland Chase",
+  "path": "/portfolio/woodland-chase/",
+  "slug": "woodland-chase",
+  "status": "live",
+  "thumbnail": {
+    "large": "/images/portfolio/woodland-chase/thumb@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/thumb.jpg"
+  }
+}

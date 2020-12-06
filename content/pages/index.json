@@ -1,0 +1,10 @@
+{
+  "caption": "Digital Design & Development",
+  "title": "Hello, my name is Krzysztof (Chris)",
+  "tagline": "Web designer & developer and Data Science student",
+  "status": "live",
+  "action": {
+    "link": "/portfolio/",
+    "title": "View my work"
+  }
+}

@@ -1,62 +1,102 @@
 <template>
   <div>
+    <header id="header" class="header">
+      <div class="inner header__container">
+        <div class="header__main">
+          <nuxt-link to="/" title="Go back to homepage" class="header__logo">CP</nuxt-link>
+        </div>
+        <div class="header__nav">
+          <div class="header__language">
+            <nuxt-link to="/" class="header__language__toggle active">EN</nuxt-link>
+            <span class="header__language__divider">|</span>
+            <nuxt-link to="/pl/" class="header__language__toggle">PL</nuxt-link>
+          </div>
+          <NavToggle @toggle="toggleNav()" />
+          <TheNav :class="{ 'active': navActive }" />
+        </div>
+      </div>
+    </header>
     <Nuxt />
   </div>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<script>
+  import NavToggle from '@/components/NavToggle'
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
+  export default {
+    components: {
+      NavToggle,
+    },
+    data() {
+      return {
+        navActive: false,
+      }
+    },
+    methods: {
+      toggleNav() {
+        this.navActive = !this.navActive
+      }
+    }
+  }
+</script>
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+<style scoped lang="scss">
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 1.5rem 0;
+    color: $clr-white;
+  }
+  .header__container {
+    @include flex-row;
+    align-items: center;
+  }
+  .header__logo {
+    @include align-center;
+    justify-content: center;
+    background-color: $clr-white;
+    color: $clr-dark;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    font-size: 0.9em;
+    font-weight: $bold-weight;
+    position: relative;
+    z-index: 999;
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .header__main {
+    padding-right: 4rem;
+    width: $main;
+  }
+  .header__nav {
+    @include flex-row;
+    justify-content: space-between;
+    width: $aside;
+    padding-left: 4rem;
+  }
+  .header__language {
+    @include flex-row;
+    align-items: center;
+  }
+  .header__language__toggle {
+    display: inline-block;
+    opacity: 0.7;
+    font-size: 0.84em;
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+    &.active {
+      opacity: 1;
+    }
+  }
+  .header__language__divider {
+    display: inline-block;
+    margin: 0 0.5rem;
+    transform: translateY(-1px);
+  }
 </style>

@@ -37,13 +37,22 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/style-resources',
+    'nuxt-fontawesome',
   ],
 
   styleResources: {
     scss: [
-      '~/assets/styles/variables.scss',
-      '~/assets/styles/mixins.scss',
+      '~/assets/styles/_variables.scss',
+      '~/assets/styles/_mixins.scss',
     ]
+  },
+
+  fontawesome: {
+    component: 'fa',
+    imports: [{
+      set: '@fortawesome/free-brands-svg-icons',
+      icons: ['faGithub', 'faLinkedin', 'faTwitter', 'faBehance'],
+    }]
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
