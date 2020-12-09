@@ -25,9 +25,9 @@
 
 <style scoped lang="scss">
   .project {
-    padding-top: 50%;
+    padding-top: 33.333%;
     position: relative;
-    width: 50%;
+    width: 33.333%;
     overflow: hidden;
   }
   .project__image {
@@ -65,5 +65,50 @@
   }
   .project:hover .project__image {
     transform: scale(1.1);
+  }
+
+  // Enter-leave animations
+
+  @keyframes enter {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes leave {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+  }
+
+  .project.animate {
+    animation: enter 300ms ease forwards;
+  }
+  .project.animate-leave {
+    animation: leave 300ms ease forwards;
+  }
+
+  // Media queries
+
+  @media screen and (max-width: 1380px) {
+    .project {
+      padding-top: 50%;
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .project {
+      padding-top: 100%;
+      width: 100%;
+    }
   }
 </style>

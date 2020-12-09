@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <video class="hero__video" muted playsinline loop autoplay>
+  <div class="video">
+    <video class="video__container" muted playsinline loop autoplay>
       <source src="/video/hero.mp4" type="video/mp4" />
     </video>
-    <div class="hero__video__overlay">
-
-    </div>
+    <div class="video__overlay" />
   </div>
 </template>
 
@@ -22,7 +20,12 @@
 </script>
 
 <style scoped lang="scss">
-  .hero__video {
+  .video {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  .video__container {
     position: absolute;
     left: 50%;
     top: 0;
@@ -30,7 +33,7 @@
     height: 100%;
     transform: translateX(-50%);
   }
-  .hero__video__overlay {
+  .video__overlay {
     @include texture-pattern;
     @include absolute-fill;
 

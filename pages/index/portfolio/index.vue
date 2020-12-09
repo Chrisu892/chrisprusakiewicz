@@ -1,8 +1,6 @@
 <template>
   <div class="projects">
-    <div class="projects__container">
-      <Project v-for="(project, idx) in portfolio" :key="idx" :project="project" />
-    </div>
+    <Project v-for="(project, idx) in portfolio" :key="idx" :project="project" />
   </div>
 </template>
 
@@ -35,10 +33,15 @@
 
 <style scoped lang="scss">
   .projects {
-    height: 100vh;
-    overflow-y: scroll;
-  }
-  .projects__container {
     @include flex-row;
+  }
+  .page-enter-active .project,
+  .page-leave-active .project {
+    transition: all 300ms ease;
+  }
+  .page-enter .project,
+  .page-leave-active .project {
+    transform: scale(0.9);
+    transform-origin: 50% 50%;
   }
 </style>
