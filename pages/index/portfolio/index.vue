@@ -11,12 +11,12 @@
     components: {
       Project,
     },
-    async asyncData({ $content, store }) {
-      const page = await $content('pages/portfolio')
+    async asyncData({ $content, store, app }) {
+      const page = await $content(`pages/${app.i18n.locale}/portfolio`)
         .where({ status: 'live' })
         .fetch()
 
-      const portfolio = await $content('portfolio')
+      const portfolio = await $content(`portfolio/${app.i18n.locale}`)
         .where({ status: 'live' })
         .fetch()
 
@@ -27,7 +27,8 @@
       portfolio() {
         return this.$store.state.portfolio
       }
-    }
+    },
+    scrollToTop: true,
   }
 </script>
 

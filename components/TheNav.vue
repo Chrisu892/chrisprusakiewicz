@@ -2,10 +2,10 @@
   <nav id="nav" class="nav" :class="{ 'active': isActive }">
     <ul class="nav__list">
       <li class="nav__list__item work" @click="toggleNav()">
-        <nuxt-link to="/portfolio/" class="nav__list__link">My Work</nuxt-link>
+        <nuxt-link :to="localePath('/portfolio/')" class="nav__list__link">My Work</nuxt-link>
       </li>
       <li class="nav__list__item contact" @click="toggleNav()">
-        <nuxt-link to="/contact/" class="nav__list__link">Contact</nuxt-link>
+        <nuxt-link :to="localePath('/contact/')" class="nav__list__link">Contact</nuxt-link>
       </li>
     </ul>
   </nav>

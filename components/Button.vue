@@ -2,7 +2,7 @@
   <a v-if="isExternal()" :href="action.link" :title="action.title" target="_blank" class="button">
     <span class="button__title">{{ action.title }}</span>
   </a>
-  <nuxt-link v-else :to="action.link" :title="action.title" class="button">
+  <nuxt-link v-else :to="localePath(action.link)" :title="action.title" class="button">
     <span class="button__title">{{ action.title }}</span>
   </nuxt-link>
 </template>

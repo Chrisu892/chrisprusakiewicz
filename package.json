@@ -19,7 +19,8 @@
     "@nuxtjs/style-resources": "^1.0.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-i18n": "^6.16.0"
   },
   "devDependencies": {
     "node-sass": "^5.0.0",

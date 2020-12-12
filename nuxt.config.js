@@ -1,3 +1,5 @@
+import i18n from './i18n'
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -27,15 +29,33 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    [
+      'nuxt-i18n',
+      {
+        strategy: 'prefix_except_default',
+        defaultLocale: 'en',
+        seo: true,
+        locales: [
+          {
+            code: 'pl',
+            name: 'polski',
+            iso: 'pl-PL'
+          },
+          {
+             code: 'en',
+             name: 'English',
+             iso: 'en-GB'
+          }
+        ],
+        vueI18n: i18n
+      }
+    ]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/style-resources',
     'nuxt-fontawesome',

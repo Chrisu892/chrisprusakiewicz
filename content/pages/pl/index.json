@@ -1,0 +1,10 @@
+{
+  "caption": "Projektant Stron Internetowych",
+  "title": "Czesc, nazywam sie Krzysiek",
+  "tagline": "Projektant stron internetowych oraz Data Science student",
+  "status": "live",
+  "action": {
+    "link": "/portfolio/",
+    "title": "Zobacz moje projekty"
+  }
+}

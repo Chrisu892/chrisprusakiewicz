@@ -7,9 +7,7 @@
         </div>
         <div class="header__nav">
           <div class="header__language">
-            <nuxt-link to="/" class="header__language__toggle active">EN</nuxt-link>
-            <span class="header__language__divider">|</span>
-            <nuxt-link to="/pl/" class="header__language__toggle">PL</nuxt-link>
+            <LangToggle />
           </div>
           <NavToggle />
           <TheNav />
@@ -23,11 +21,13 @@
 <script>
   import TheLogo from '@/components/TheLogo'
   import NavToggle from '@/components/NavToggle'
+  import LangToggle from '@/components/LangToggle'
 
   export default {
     components: {
       TheLogo,
       NavToggle,
+      LangToggle,
     },
   }
 </script>

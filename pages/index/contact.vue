@@ -1,11 +1,14 @@
 <template>
-  <div class="contact" style="background-image:url('/images/my-photo.jpg');" />
+  <div
+    class="contact animate persist"
+    style="background-image:url('/images/my-photo.jpg');"
+  />
 </template>
 
 <script>
   export default {
-    async asyncData({ $content, store }) {
-      const page = await $content('pages/contact')
+    async asyncData({ $content, store, app }) {
+      const page = await $content(`pages/${app.i18n.locale}/contact`)
         .where({ status: 'live' })
         .fetch()
 
@@ -15,7 +18,8 @@
       page() {
         return this.$store.state.page
       }
-    }
+    },
+    scrollToTop: true,
   }
 </script>
 
@@ -24,7 +28,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
+    overflow: hidden;
     width: 100%;
   }
 </style>

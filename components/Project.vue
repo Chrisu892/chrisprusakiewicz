@@ -4,7 +4,7 @@
       <source media="(max-width: 768px)" :srcset="project.thumbnail.small" />
       <img :src="project.thumbnail.large" :alt="project.title" class="project__image" />
     </picture>
-    <nuxt-link :to="project.slug" title="View GinnyD Project" class="project__overlay">
+    <nuxt-link :to="localePath(project.path)" title="View GinnyD Project" class="project__overlay">
       <div class="project__text">
         <h3 class="project__title">{{ project.title }}</h3>
       </div>

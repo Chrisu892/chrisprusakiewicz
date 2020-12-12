@@ -9,13 +9,14 @@
 
 <script>
   export default {
-    async asyncData({ $content, store }) {
-      const page = await $content('pages/index')
+    async asyncData({ $content, store, app }) {
+      const page = await $content(`pages/${app.i18n.locale}/index`)
         .where({ status: 'live' })
         .fetch()
 
       store.dispatch('updatePage', page)
-    }
+    },
+    scrollToTop: true,
   }
 </script>
 

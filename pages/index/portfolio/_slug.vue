@@ -43,8 +43,9 @@
 
 <script>
   export default {
-    async asyncData({ $content, store, params }) {
-      const page = await $content(`portfolio`)
+    async asyncData({ $content, store, params, app }) {
+      console.log(app.i18n.locale)
+      const page = await $content(`portfolio/${app.i18n.locale}`)
         .where({ status: 'live', slug: params.slug })
         .fetch()
 
@@ -54,7 +55,8 @@
       page() {
         return this.$store.state.page
       }
-    }
+    },
+    scrollToTop: true,
   }
 </script>
 

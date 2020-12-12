@@ -1,0 +1,10 @@
+{
+  "title": "Skontaktuj sie",
+  "tagline": "Jesli chcesz sie przywitac lub porozmawiac o swoim projekcie, prosze sie skontaktowac",
+  "status": "live",
+  "action": {
+    "link": "mailto:chris.prusakiewicz@gmail.com",
+    "title": "Wyslij email",
+    "external": true
+  }
+}
