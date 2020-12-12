@@ -27,6 +27,17 @@ export default {
       name: 'portfolio',
       data: data
     })
+  },
+
+  async fetchPages({ commit }) {
+    const pages = await this.$content(`pages/${this.app.i18n.locale}`)
+      .sortBy('order', 'asc')
+      .fetch()
+
+    commit('SET_ITEM', {
+      name: 'pages',
+      data: pages
+    })
   }
 
 }

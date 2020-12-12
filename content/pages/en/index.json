@@ -1,7 +1,10 @@
 {
   "caption": "Digital Design & Development",
   "title": "Hello, my name is Chris",
+  "navTitle": "Home",
   "tagline": "Web designer & developer and Data Science student",
+  "correctPath": "/",
+  "order": 1,
   "status": "live",
   "action": {
     "link": "/portfolio/",

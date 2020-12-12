@@ -15,6 +15,7 @@
         .fetch()
 
       store.dispatch('updatePage', page)
+      store.dispatch('fetchPages')
     },
     scrollToTop: true,
   }

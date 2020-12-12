@@ -1,5 +1,8 @@
 {
   "title": "Portfolio",
-  "tagline": "Jako projektant stron internetowych w firmie Edward Robertson, mam przyjemnosc tworzyc fantastyczne projekty dla klientow w Wielkiej Brytanii",
-  "status": "live"
+  "navTitle": "Portfolio",
+  "tagline": "Obecnie pracuje w firmie Edward Robertson, gdzie mam przyjemnosc tworzyc fantastyczne projekty dla klientow w calej Wielkiej Brytanii",
+  "status": "live",
+  "correctPath": "/portfolio/",
+  "order": 2
 }

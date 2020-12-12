@@ -1,8 +1,11 @@
 {
-  "caption": "Projektant Stron Internetowych",
+  "caption": "Planowanie, projektowanie, wykonanie",
   "title": "Czesc, nazywam sie Krzysiek",
-  "tagline": "Projektant stron internetowych oraz Data Science student",
+  "navTitle": "Strona Glowna",
+  "tagline": "Jestem projektantem stron internetowych oraz studiuje Data Science",
   "status": "live",
+  "correctPath": "/",
+  "order": 1,
   "action": {
     "link": "/portfolio/",
     "title": "Zobacz moje projekty"

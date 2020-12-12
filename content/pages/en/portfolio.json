@@ -1,5 +1,8 @@
 {
   "title": "Portfolio",
+  "navTitle": "Portfolio",
   "tagline": "As a web designer at Edward Robertson, I'm creating fantastic websites for clients across the UK",
-  "status": "live"
+  "correctPath": "/portfolio/",
+  "status": "live",
+  "order": 2
 }
