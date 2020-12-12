@@ -1,5 +1,16 @@
 export default {
 
+  async nuxtServerInit({ commit }) {
+    const socials = await this.$content('socials')
+      .sortBy('order', 'asc')
+      .fetch()
+    
+    commit('SET_ITEM', {
+      name: 'socials',
+      data: socials
+    })
+  },
+
   toggleNav({ commit }) {
     commit('TOGGLE_NAV')
   },

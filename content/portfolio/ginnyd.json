@@ -1,8 +1,20 @@
 {
   "title": "Ginny D",
+  "tagline": "Beautifully made bespoke ecommerce website for a jewellery designer.",
   "path": "/portfolio/ginnyd/",
   "slug": "ginnyd",
   "status": "live",
+  "logo": "/images/portfolio/ginnyd/ginnyd-logo.gif",
+  "features": [
+    "Bespoke content management system",
+    "Easy orders and customers management",
+    "Automated gift vouchers distribution",
+    "Opayo, SparkPost and MailChimp integration",
+    "Packed with cross-selling features",
+    "Bespoke basket and checkout system",
+    "Automated order and gift voucher email notifications",
+    "Responsive web design"
+  ],
   "thumbnail": {
     "large": "/images/portfolio/ginnyd/thumb@2x.jpg",
     "small": "/images/portfolio/ginnyd/thumb.jpg"

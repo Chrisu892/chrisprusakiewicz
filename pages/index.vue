@@ -6,6 +6,7 @@
     <section class="main__aside" :class="{ 'swap': swap }">
       <div class="hero">
         <div class="hero__content animate">
+          <!-- <Breadcrumb /> -->
           <p v-if="page.caption" class="hero__caption"><strong>{{ page.caption }}</strong></p>
           <h1 v-if="page.title" class="hero__title">{{ page.title }}</h1>
           <p v-if="page.tagline" class="hero__tagline">{{ page.tagline }}</p>
@@ -14,21 +15,21 @@
           <Button :action="page.action" />
         </div>
       </div>
-      <div class="hero__socials">
-        <a href="https://www.linkedin.com/chris-prusakiewicz" class="hero__social" target="_blank" title="Visit my LinkedIn profile">LinkedIn</a>
-        <a href="https://www.github.com/Chrisu892" class="hero__social" target="_blank" title="Visit my GitHub profile">GitHub</a>
-        <a href="https://www.behance.com/chrisu892" class="hero__social" target="_blank" title="Visit my Behance profile">Behance</a>
-      </div>
+      <TheSocials />
     </section>
   </main>
 </template>
 
 <script>
+  import Breadcrumb from '@/components/Breadcrumb'
   import Button from '@/components/Button'
+  import TheSocials from '@/components/TheSocials'
 
   export default {
     components: {
+      Breadcrumb,
       Button,
+      TheSocials,
     },
     computed: {
       page() {
@@ -85,6 +86,7 @@
     color: $clr-white;
     position: relative;
     z-index: 1;
+    max-width: 375px;
   }
   .hero__caption {
     font-size: 0.8em;
@@ -103,50 +105,15 @@
     line-height: 1.5;
     margin-bottom: 2rem;
   }
-
-  .hero__socials {
-    @include flex-row;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    color: $clr-white;
-    padding: 1.5rem 4rem;
+  .hero__subtitle {
+    font-size: 1.38em;
+    margin-bottom: 1.5rem;
   }
-  .hero__social {
-    display: inline-block;
-    margin-right: 2rem;
-    color: $clr-white;
-    font-size: 0.9em;
-    padding-bottom: 0.25rem;
-    border-bottom: solid 1px $clr-white;
-    border-color: rgba($clr-white, 0.1);
-    position: relative;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &::before {
-      content: '';
-      position: absolute;
-      bottom: -1px;
-      left: 0;
-      width: 100%;
-      border-bottom: solid 1px $clr-white;
-      opacity: 0;
-      transform-origin: left;
-      transform: rotateY(90deg);
-      transition:
-        transform 300ms ease,
-        opacity 300ms ease;
-    }
-
-    &:hover::before {
-      transform: rotateY(0deg);
-      opacity: 1;
-    }
+  .hero__features {
+    margin-bottom: 2.5rem;
+  }
+  .hero__feature {
+    font-size: 1.12em;
   }
 
   // Enter-Leave Animations
@@ -183,13 +150,6 @@
       right: 0;
     }
   }
-
-  // .main__aside.swap {
-  //   animation: swap 400ms ease forwards;
-  // }
-  // .main__aside.swap-leave {
-  //   animation: swap-leave 400ms forwards;
-  // }
 
   //
   

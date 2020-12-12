@@ -1,36 +1,43 @@
 <template>
   <article class="project animate persist">
+
     <div v-if="page.image1" class="project__image bottom-shader">
       <picture>
         <source media="(max-width:768px)" :srcset="page.image1.small" />
-        <img :src="page.image1.large" :alt="page.title1" />
+        <img :src="page.image1.large" :alt="page.title1" class="project__image__source" />
       </picture>
       <div class="project__scroll">&#10095;</div>
     </div>
+
     <div v-if="page.title1 || page.content1" class="project__content">
       <h2 v-if="page.title1" class="project__title">{{ page.title1 }}</h2>
       <div v-if="page.content1" class="project__text" v-html="page.content1" />
     </div>
+
     <div v-if="page.image2" class="project__image shader">
       <picture>
         <source media="(max-width:768px)" :srcset="page.image2.small" />
-        <img :src="page.image1.large" :alt="page.title2" />
+        <img :src="page.image1.large" :alt="page.title2" class="project__image__source" />
       </picture>
     </div>
+
     <div v-if="page.title2 || page.content2" class="project__content">
       <h2 v-if="page.title2" class="project__title">{{ page.title2 }}</h2>
       <div v-if="page.content2" class="project__text" v-html="page.content2" />
     </div>
+
     <div v-if="page.image3" class="project__image shader">
       <picture>
         <source media="(max-width:768px)" :srcset="page.image3.small" />
-        <img :src="page.image3.large" :alt="page.title3" />
+        <img :src="page.image3.large" :alt="page.title3" class="project__image__source" />
       </picture>
     </div>
+
     <div v-if="page.title3 || page.content3" class="project__content">
       <h2 v-if="page.title3" class="project__title">{{ page.title3 }}</h2>
       <div v-if="page.content3" class="project__text" v-html="page.content3" />
     </div>
+
   </article>
 </template>
 
@@ -52,7 +59,12 @@
 </script>
 
 <style scoped lang="scss">
+  .project {
+    transform-origin: top;
+  }
   .project__image {
+    overflow: hidden;
+    padding-top: 72%;
     position: relative;
 
     &.bottom-shader::before,
@@ -74,6 +86,12 @@
     &.top-shader::before {
       background: linear-gradient(180deg, $clr-dark 25%, rgba($clr-dark, 0) 100%);
     }
+  }
+  .project__image__source {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .project__scroll {
     position: absolute;
@@ -104,17 +122,30 @@
 
   // Enter-leave animations
 
+  @keyframes enter {
+    from {
+      transform: scale(1.1);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
   @keyframes leave {
     from {
-      transform-origin: top;
       transform: scale(1);
       opacity: 1;
     }
     to {
-      transform-origin: top;
       transform: scale(1.1);
       opacity: 0;
     }
+  }
+
+  .project.animate {
+    animation: enter 600ms ease forwards;
   }
 
   .project.animate-leave {

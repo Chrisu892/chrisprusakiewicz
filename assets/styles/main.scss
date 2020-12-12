@@ -42,3 +42,23 @@ img {
   display: block;
   width: 100%;
 }
+
+ol,
+li {
+  line-height: 1.4;
+  margin-bottom: 0.3rem;
+  padding-left: 1rem;
+  position: relative;
+
+  &::before {
+    content: "\00BB";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    color: $clr-white;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
