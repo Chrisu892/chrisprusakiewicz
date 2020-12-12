@@ -37,14 +37,14 @@ export default {
         seo: true,
         locales: [
           {
+            code: 'en',
+            name: 'English',
+            iso: 'en-GB'
+          },
+          {
             code: 'pl',
             name: 'polski',
             iso: 'pl-PL'
-          },
-          {
-             code: 'en',
-             name: 'English',
-             iso: 'en-GB'
           }
         ],
         vueI18n: i18n
