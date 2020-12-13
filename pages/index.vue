@@ -1,9 +1,9 @@
 <template>
   <main id="main" class="main">
-    <section class="main__content" :class="{ 'swap': swap }">
+    <section class="main__content">
       <nuxt-child />
     </section>
-    <section class="main__aside" :class="{ 'swap': swap }">
+    <section class="main__aside">
       <div class="hero">
         <div class="hero__content animate">
           <!-- <Breadcrumb /> -->
@@ -34,9 +34,6 @@
     computed: {
       page() {
         return this.$store.state.page
-      },
-      swap() {
-        return this.page.slug != 'index'
       }
     }
   }
@@ -63,11 +60,10 @@
     position: absolute;
     left: 0;
     right: $aside;
+    overflow: hidden;
   }
   .main__aside {
     @include align-center;
-    @include constellation-pattern;
-    background-color: $clr-dark;
     bottom: 0;
     padding: 6rem 3.5rem;
     position: fixed;
@@ -77,8 +73,17 @@
 
     &::before {
       @include absolute-fill;
+      @include constellation-pattern;
+      background-color: $clr-dark;
+      content: '';
+      opacity: 0.4;
+    }
+
+    &::after {
+      @include absolute-fill;
       content: '';
       background: radial-gradient(rgba($clr-dark, 0) 0%, $clr-dark 100%);
+      opacity: 0.4;
     }
   }
 
@@ -104,16 +109,6 @@
     font-size: 1.38em;
     line-height: 1.5;
     margin-bottom: 2rem;
-  }
-  .hero__subtitle {
-    font-size: 1.38em;
-    margin-bottom: 1.5rem;
-  }
-  .hero__features {
-    margin-bottom: 2.5rem;
-  }
-  .hero__feature {
-    font-size: 1.12em;
   }
 
   // Enter-Leave Animations

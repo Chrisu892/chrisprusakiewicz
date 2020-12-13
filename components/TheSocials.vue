@@ -26,6 +26,7 @@
     width: 100%;
     color: $clr-white;
     padding: 1.5rem 4rem;
+    z-index: 1;
   }
   .socials__link {
     display: inline-block;
