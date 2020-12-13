@@ -53,7 +53,9 @@
   }
   .project__text {
     color: $clr-white;
+    line-height: 1.4;
     position: relative;
+    text-align: center;
     z-index: 1;
   }
   .project__title {
