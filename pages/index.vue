@@ -181,4 +181,38 @@
       animation-delay: 100ms;
     }
   }
+
+  // Media queries
+
+  @media screen and (min-width: 1280px) {
+    .main {
+      @include flex-row;
+      flex-direction: row-reverse;
+    }
+    .main__content {
+      margin-right: $aside;
+      width: $main;
+    }
+    .main__hero {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: $aside;
+    }
+    .main.index .main__hero {
+      @include align-center;
+      @include absolute-fill;
+      position: relative;
+      background-color: rgba($clr-dark, 0.6);
+      width: $aside;
+      height: 100%;
+    }
+    .main.index .main__content {
+      margin-right: 0;
+    }
+
+    .hero {
+      padding: 12rem 4rem;
+    }
+  }
 </style>

@@ -1,5 +1,6 @@
 {
   "title": "Nicky Noo's",
+  "tagline": "Quirky mobile-friendly website to promote mobile bar hire specialists in Newcastle",
   "correctPath": "/portfolio/nickynoos/",
   "slug": "nickynoos",
   "status": "live",
@@ -16,18 +17,12 @@
     "large": "/images/portfolio/nickynoos/thumb@2x.jpg",
     "small": "/images/portfolio/nickynoos/thumb.jpg"
   },
-  "title1": "Ecommerce website for a fashion designer",
-  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "title1": "Increasing awareness of services",
+  "content1": "<p>Nicky Noo's provides fully stocked vintage bars for all occasions. They decided that they would benefit from having their own website to promote their services and keep their clients informed about things that are happening at Nicky Noo.</p><p>The client wanted a website that is ‘quirky’, matches the branding of their new drinks menu and shows the latest photos from Instagram.</p>",
   "image2": {
     "large": "/images/portfolio/nickynoos/thumb@2x.jpg",
     "small": "/images/portfolio/nickynoos/thumb.jpg"
   },
-  "title2": "Built to increase sales",
-  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
-  "image3": {
-    "large": "/images/portfolio/nickynoos/thumb@2x.jpg",
-    "small": "/images/portfolio/nickynoos/thumb.jpg"
-  },
-  "title3": "Optimised for Search Engines",
-  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
+  "title2": "Responsive drinks menu",
+  "content2": "<p>The solution was to get the illustrations from their drinks menu and use them in web design. The colour scheme was inspired by the common colour that appears in their vintage bars. Whereas their Instagram gallery is hooked up with the website through Instagram API.</p><p>It has been a challenge to make their drinks menu look similar to the printed version. The problem was to make it all responsive. One option would be to include a button to download a PDF document, however that’s too easy. Thus, I used a responsive grid system to replicate the menu using pure HTML and CSS code.</p><p>Doing so, would also enable the client to manage drinks shown on the menu themselves in their CMS. This way, they can add and remove drinks or hide drinks that are currently unavailable.</p>"
 }

@@ -92,4 +92,18 @@
   .project.animate-leave {
     animation: leave 300ms ease forwards;
   }
+
+  @media screen and (min-width: 768px) {
+    .project {
+      padding-top: 33.333%;
+      width: 33.333%;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .project {
+      padding-top: 50%;
+      width: 50%;
+    }
+  }
 </style>

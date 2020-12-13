@@ -1,5 +1,6 @@
 {
   "title": "ARGLA",
+  "tagline": "Website for glass and aluminium manufacturer",
   "correctPath": "/portfolio/argla/",
   "slug": "argla",
   "status": "live",
@@ -17,11 +18,17 @@
     "small": "/images/portfolio/argla/thumb.jpg"
   },
   "title1": "Brochure website for aluminium and steel manufacturers",
-  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "content1": "<p>My client wanted to rebrand their old website into something new. They were looking for a modern design that would incorporate their rich library of photographs taken after completion of their projects.</p>",
   "image2": {
     "large": "/images/portfolio/argla/thumb@2x.jpg",
     "small": "/images/portfolio/argla/thumb.jpg"
   },
   "title2": "Built to showcase portfolio",
-  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
+  "content2": "<p>When I looked at the photographs sent over to me by ARGLA, I was struck by how exciting their work is. Smooth shapes, sharp edges and tall windows - all of this combined made me feel amazed. I wanted to make sure that whoever visits their website will feel the same.</p><p>Therefore, I picked the best photographs and added them to relevant sections of the website and used subtle patterns, colours and shapes to make the website feel like it’s made out of glass and aluminium. The client wanted to show features and application areas for each of their products.</p>",
+  "image3": {
+    "large": "/images/portfolio/argla/thumb@2x.jpg",
+    "small": "/images/portfolio/argla/thumb.jpg"
+  },
+  "title3": "Connecting Sales Respresentatives",
+  "content3": "<p>Also, they asked if I could link the sales representatives and their contact details to the right product. To achieve this, I had to think about relationships and how website administrators will be able to manage these relationships. The final product is a website that is managed through the bespoke Content Management System developed by the team at Edward Robertson.</p><p>The design of the website is simple and features large photography that effectively communicates that ARGLA is a leading manufacturer of glass and aluminium.</p>"
 }

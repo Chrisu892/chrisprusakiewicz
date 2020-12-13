@@ -1,5 +1,6 @@
 {
   "title": "Sportbottle",
+  "tagline": "How to build brand-awareness for reusable water bottles? Create a bespoke, mobile-friendly website that lets people customise and order their own bottles",
   "correctPath": "/portfolio/sportbottle/",
   "slug": "sportbottle",
   "status": "live",
@@ -16,18 +17,18 @@
     "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
     "small": "/images/portfolio/sportbottle/thumb.jpg"
   },
-  "title1": "Ecommerce website for a fashion designer",
-  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "title1": "Reusable water bottles that last, like their responsive website",
+  "content1": "<p>SportBottle is a manufacturer of reusable water bottles that operates in the U.K. and Ireland. After years of successful presence on the market, they’ve decided to refresh the look and feel of their old website.</p>",
   "image2": {
     "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
     "small": "/images/portfolio/sportbottle/thumb.jpg"
   },
-  "title2": "Built to increase sales",
-  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "title2": "About Sportbottle",
+  "content2": "<p>The SportBottle’s mission is to reduce single-use plastic. They aim to provide a solution to plastic pollution that is destroying our planet. Thus, the client wanted a website that would inform people about their objectives and demonstrate how a reusable water bottle could help to save the planet.</p><p>When SportBottle decided to add a custom bottle builder that users could use to build their own bottles and order them, we faced complications. How to build a complex feature that is both interactive and responsive to different screen sizes?</p>",
   "image3": {
     "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
     "small": "/images/portfolio/sportbottle/thumb.jpg"
   },
-  "title3": "Optimised for Search Engines",
-  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
+  "title3": "The Result",
+  "content3": "<p>The finished product is a mobile-friendly, SEO-optimised website that does exactly what the client required. Their customers can customise bottles, place an order and pay online straight on their website. That gives SportBottle not only a website, but also a system that lets them track and manage placed orders.</p>"
 }

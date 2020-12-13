@@ -1,5 +1,6 @@
 {
   "title": "Smeaton's Gin",
+  "tagline": "Responsive website for a Bristol Method Dry Gin crafted to a hand-written 1870s gin recipe discovered in the historic Bristol Archives",
   "correctPath": "/portfolio/smeatons-gin/",
   "slug": "smeatons-gin",
   "status": "live",
@@ -16,18 +17,12 @@
     "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
     "small": "/images/portfolio/smeatons-gin/thumb.jpg"
   },
-  "title1": "Ecommerce website for a fashion designer",
-  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "title1": "Mobile-friendly website for gin distillery",
+  "content1": "<p>After successfully recreating the original Bristol Method Dry Gin found in the Bristol Archives, Smeaton’s decided to refresh the look and feel of their old website.</p><p>Smeaton’s wanted a mobile-friendly website that could tell the story about how they recreated the Bristol Method Dry Gin according to the original recipe.</p><p>After successfully recreating the original Bristol Method Dry Gin found in the Bristol Archives, Smeaton’s decided to refresh the look and feel of their old website.</p>",
   "image2": {
     "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
     "small": "/images/portfolio/smeatons-gin/thumb.jpg"
   },
-  "title2": "Built to increase sales",
-  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
-  "image3": {
-    "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
-    "small": "/images/portfolio/smeatons-gin/thumb.jpg"
-  },
-  "title3": "Optimised for Search Engines",
-  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
+  "title2": "Designed to stand out",
+  "content2": "<p>Smeaton’s wanted a mobile-friendly website that could tell the story about how they recreated the Bristol Method Dry Gin according to the original recipe.</p><p>They wanted their website to match the branding of their new bottle packaging. They provided artwork that could make their website match their branding.</p><p>It has been a challenge to choose the right artwork from hundreds of illustrations. It was important to make sure each illustration featured on the website serves its purpose.</p>"
 }
