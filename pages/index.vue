@@ -1,12 +1,9 @@
 <template>
-  <main id="main" class="main">
-    <section class="main__content">
-      <nuxt-child />
-    </section>
-    <section class="main__aside">
+  <main id="main" class="main" :class="{ 'index': fullScreen }">
+
+    <section class="main__hero">
       <div class="hero">
         <div class="hero__content animate">
-          <!-- <Breadcrumb /> -->
           <p v-if="page.caption" class="hero__caption"><strong>{{ page.caption }}</strong></p>
           <h1 v-if="page.title" class="hero__title">{{ page.title }}</h1>
           <p v-if="page.tagline" class="hero__tagline">{{ page.tagline }}</p>
@@ -15,8 +12,12 @@
           <Button :action="page.action" />
         </div>
       </div>
-      <TheSocials />
     </section>
+
+    <section class="main__content">
+      <nuxt-child />
+    </section>
+
   </main>
 </template>
 
@@ -34,6 +35,9 @@
     computed: {
       page() {
         return this.$store.state.page
+      },
+      fullScreen() {
+        return this.page.slug == 'index' || this.page.slug == 'contact'
       }
     }
   }
@@ -50,65 +54,56 @@
     transform-origin: 50% 50%;
   }
 
+  // Component styling
+
   .main {
-    @include flex-row;
-    overflow: hidden;
-    width: 100%;
+    @include flex-column;
+    position: relative;
+  }
+  .main__hero {
+    background-color: $clr-dark;
+    height: 50%;
   }
   .main__content {
-    margin-right: auto;
-    position: absolute;
-    left: 0;
-    right: $aside;
+    height: 100%;
+  }
+
+  .main.index {
+    height: 100vh;
     overflow: hidden;
   }
-  .main__aside {
+  .main.index .main__hero {
     @include align-center;
-    bottom: 0;
-    padding: 6rem 3.5rem;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: $aside;
-
-    &::before {
-      @include absolute-fill;
-      @include constellation-pattern;
-      background-color: $clr-dark;
-      content: '';
-      opacity: 0.4;
-    }
-
-    &::after {
-      @include absolute-fill;
-      content: '';
-      background: radial-gradient(rgba($clr-dark, 0) 0%, $clr-dark 100%);
-      opacity: 0.4;
-    }
+    @include absolute-fill;
+    background-color: rgba($clr-dark, 0.6);
+    height: 100%;
   }
 
   .hero {
     color: $clr-white;
+    padding: 8rem 2rem 4rem 2rem;
     position: relative;
     z-index: 1;
-    max-width: 375px;
   }
   .hero__caption {
     font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 1px;
     opacity: 1;
+    margin-bottom: 1.5rem;
   }
   .hero__title {
-    font-size: 2.8em;
+    font-size: 2.4em;
     font-weight: $bold-weight;
-    margin: 1.5rem 0;
+    margin-bottom: 1.5rem;
     line-height: 1.1;
   }
   .hero__tagline {
     font-size: 1.38em;
     line-height: 1.5;
-    margin-bottom: 2rem;
+  }
+  .hero__actions {
+    margin-top: 2rem;
   }
 
   // Enter-Leave Animations

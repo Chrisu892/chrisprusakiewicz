@@ -5,9 +5,7 @@
       <img :src="project.thumbnail.large" :alt="project.title" class="project__image" />
     </picture>
     <nuxt-link :to="localePath(project.correctPath)" title="View GinnyD Project" class="project__overlay">
-      <div class="project__text">
-        <h3 class="project__title">{{ project.title }}</h3>
-      </div>
+      <h3 class="project__title">{{ project.title }}</h3>
     </nuxt-link>
   </article>
 </template>
@@ -25,9 +23,9 @@
 
 <style scoped lang="scss">
   .project {
-    padding-top: 33.333%;
+    padding-top: 50%;
     position: relative;
-    width: 33.333%;
+    width: 50%;
     overflow: hidden;
   }
   .project__image {
@@ -42,7 +40,7 @@
     @include flex-row;
     align-items: center;
     justify-content: center;
-    padding: 4rem;
+    padding: 2rem;
 
     &::before {
       @include absolute-fill;
@@ -51,16 +49,12 @@
       opacity: 0.8;
     }
   }
-  .project__text {
-    color: $clr-white;
-    line-height: 1.4;
+  .project__title {
+    font-weight: $bold-weight;
+    font-size: 1.25em;
     position: relative;
     text-align: center;
     z-index: 1;
-  }
-  .project__title {
-    font-weight: $bold-weight;
-    font-size: 1.5em;
   }
   .project__tagline {
     line-height: 1.6;
@@ -97,20 +91,5 @@
   }
   .project.animate-leave {
     animation: leave 300ms ease forwards;
-  }
-
-  // Media queries
-
-  @media screen and (max-width: 1380px) {
-    .project {
-      padding-top: 50%;
-      width: 50%;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .project {
-      padding-top: 100%;
-      width: 100%;
-    }
   }
 </style>

@@ -106,7 +106,7 @@
   .project__content {
     background-color: $clr-white;
     color: $clr-dark;
-    padding: 4rem;
+    padding: 3rem 2rem;
   }
   .project__title {
     font-size: 1.75em;

@@ -1,5 +1,5 @@
 <template>
-  <div class="video">
+  <div class="video" style="background:url('/images/work.jpg') center center/cover no-repeat;">
     <video class="video__container" muted playsinline loop autoplay>
       <source src="/video/hero.mp4" type="video/mp4" />
     </video>
@@ -25,15 +25,16 @@
   .video {
     height: 100vh;
     overflow: hidden;
+    position: relative;
     width: 100%;
   }
   .video__container {
     position: absolute;
     left: 50%;
-    top: 0;
+    top: 50%;
     width: auto;
     height: 100%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
   }
   .video__overlay {
     @include texture-pattern;
@@ -43,7 +44,7 @@
       @include absolute-fill;
       content: '';
       background-color: $clr-dark;
-      opacity: 0.3;
+      opacity: 0.5;
     }
   }
 </style>

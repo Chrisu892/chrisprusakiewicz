@@ -19,7 +19,6 @@
           :to="localePath(page.correctPath)"
           class="nav__list__link">
           {{ page.navTitle }}
-          <span>&#10230;</span>
         </nuxt-link>
       </li>
     </ul>
@@ -64,49 +63,34 @@
   }
   .nav__images {
     position: relative;
-    width: 50%;
+    width: 100%;
+    height: 100%;
 
     &::before {
       @include absolute-fill;
       background-color: $clr-dark;
       content: '';
       opacity: 0.84;
+      z-index: 1;
     }
   }
   .nav__list {
-    font-size: 2.125em;
+    @include absolute-fill;
+    font-size: 1.75em;
     font-weight: $bold-weight;
     letter-spacing: 1px;
-    padding: 10% 5%;
     text-transform: uppercase;
-    width: 50%;
+    padding: 7rem 0 4rem 0;
   }
   .nav__list__item {
     margin: 0;
-    padding: 10%;
+    padding: 0;
   }
   .nav__list__link {
-    display: inline-block;
+    display: block;
+    padding: 1rem 2rem;
     position: relative;
-
-    span {
-      display: inline-block;
-      opacity: 0;
-      position: absolute;
-      right: -1rem;
-      top: 50%;
-      transform: translate(0, -50%);
-      transition:
-        opacity 300ms ease,
-        transform 300ms ease,
-        visibility 300ms ease;
-      visibility: hidden;
-    }
-
-    &:hover span {
-      opacity: 1;
-      transform: translate(100%, -50%);
-      visibility: visible;
-    }
+    width: 100%;
+    z-index: 3;
   }
 </style>
