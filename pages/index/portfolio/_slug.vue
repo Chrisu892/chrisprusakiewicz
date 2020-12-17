@@ -9,7 +9,10 @@
         </picture>
       </div>
       <div v-if="page.title1 || page.content1" class="project__content">
-        <h2 v-if="page.title1" class="project__title">{{ page.title1 }}</h2>
+        <h2 v-if="page.title1" class="project__title">
+          {{ page.title1 }}
+          <span class="project__title__underline" :style="borderColor" />
+        </h2>
         <div v-if="page.content1" class="project__text" v-html="page.content1" />
       </div>
     </div>
@@ -17,12 +20,15 @@
     <div v-if="page.title2 || page.content2" class="project__section reverse">
       <div v-if="page.image2" class="project__image bottom-shader animate persist">
         <picture>
-          <source media="(max-width:768px)" :srcset="page.image1.small" />
-          <img :src="page.image1.large" :alt="page.title1" class="project__image__source" />
+          <source media="(max-width:768px)" :srcset="page.image2.small" />
+          <img :src="page.image2.large" :alt="page.title1" class="project__image__source" />
         </picture>
       </div>
       <div v-if="page.title2 || page.content2" class="project__content">
-        <h2 v-if="page.title2" class="project__title">{{ page.title2 }}</h2>
+        <h2 v-if="page.title2" class="project__title">
+          {{ page.title2 }}
+          <span class="project__title__underline" :style="borderColor" />
+        </h2>
         <div v-if="page.content2" class="project__text" v-html="page.content2" />
       </div>
     </div>
@@ -35,7 +41,10 @@
         </picture>
       </div>
       <div v-if="page.title3 || page.content3" class="project__content">
-        <h2 v-if="page.title3" class="project__title">{{ page.title3 }}</h2>
+        <h2 v-if="page.title3" class="project__title">
+          {{ page.title3 }}
+          <span class="project__title__underline" :style="borderColor" />
+        </h2>
         <div v-if="page.content3" class="project__text" v-html="page.content3" />
       </div>
     </div>
@@ -65,6 +74,9 @@
     computed: {
       page() {
         return this.$store.state.page
+      },
+      borderColor() {
+        return this.page.color ? `border-color:${this.page.color}` : null
       }
     },
     scrollToTop: true,
@@ -78,19 +90,32 @@
     position: relative;
   }
   .project__image__source {
+    width: auto;
+    height: 100%;
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
   }
   .project__content {
     background-color: $clr-white;
     padding: 4rem 2rem;
   }
   .project__title {
+    color: $clr-dark;
     font-size: 1.75em;
     font-weight: $bold-weight;
     margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+  }
+  .project__title__underline {
+    border: solid 2px $clr-dark;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    width: 3rem;
   }
   .project__return {
     padding: 6rem 2rem;

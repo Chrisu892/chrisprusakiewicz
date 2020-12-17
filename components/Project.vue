@@ -5,7 +5,8 @@
       <img :src="project.thumbnail.large" :alt="project.title" class="project__image" />
     </picture>
     <nuxt-link :to="localePath(project.correctPath)" title="View GinnyD Project" class="project__overlay">
-      <h3 class="project__title">{{ project.title }}</h3>
+      <h3 v-if="project.logo" class="project__title logo"><img :src="project.logo" :alt="project.title" /></h3>
+      <h3 v-else class="project__title">{{ project.title }}</h3>
     </nuxt-link>
   </article>
 </template>
@@ -51,10 +52,18 @@
   }
   .project__title {
     font-weight: $bold-weight;
-    font-size: 1.25em;
+    font-size: 1.5em;
     position: relative;
     text-align: center;
     z-index: 1;
+
+    &.logo {
+      font-size: 1em;
+
+      img {
+        width: 160px;
+      }
+    }
   }
   .project__tagline {
     line-height: 1.6;

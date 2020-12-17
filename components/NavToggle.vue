@@ -35,13 +35,23 @@
     position: relative;
     z-index: 999;
 
+    &::before {
+      @include absolute-fill;
+      background-color: $clr-dark;
+      border-radius: 100%;
+      content: '';
+      transform: scale(1.4);
+    }
+
     span {
-      display: inline-block;
-      width: 100%;
       border-bottom: solid 2px $clr-white;
+      display: inline-block;
+      position: relative;
       transition:
         transform 300ms ease-in-out,
         opacity 300ms ease-in-out;
+      width: 100%;
+      z-index: 1;
     }
 
     &.active span:nth-child(2) {

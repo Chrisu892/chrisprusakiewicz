@@ -4,6 +4,7 @@
   "correctPath": "/portfolio/ginnyd/",
   "slug": "ginnyd",
   "status": "live",
+  "color": "#fe0098",
   "logo": "/images/portfolio/ginnyd/ginnyd-logo.gif",
   "features": [
     "Bespoke content management system",

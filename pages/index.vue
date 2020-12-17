@@ -5,7 +5,10 @@
       <div class="hero">
         <div class="hero__content animate">
           <p v-if="page.caption" class="hero__caption"><strong>{{ page.caption }}</strong></p>
-          <h1 v-if="page.title" class="hero__title">{{ page.title }}</h1>
+          <template v-if="page.logo">
+            <h1 class="hero__title"><img :src="page.logo" class="hero__logo" /></h1>
+          </template>
+          <h1 v-else-if="page.title" class="hero__title">{{ page.title }}</h1>
           <p v-if="page.tagline" class="hero__tagline">{{ page.tagline }}</p>
         </div>
         <div v-if="page.action" class="hero__actions animate delay">
@@ -39,6 +42,9 @@
       fullScreen() {
         return this.page.slug == 'index' || this.page.slug == 'contact'
       }
+    },
+    async asyncData({ store }) {
+      await store.dispatch('fetchPages')
     }
   }
 </script>
@@ -61,8 +67,16 @@
     position: relative;
   }
   .main__hero {
-    background-color: $clr-dark;
+    @include constellation-pattern;
     height: 50%;
+    position: relative;
+    height: 100%;
+
+    &::before {
+      @include absolute-fill;
+      background: radial-gradient(rgba($clr-dark, 0) 0%, rgba($clr-dark, 0.9) 100%);
+      content: '';
+    }
   }
   .main__content {
     height: 100%;
@@ -85,6 +99,11 @@
     position: relative;
     z-index: 1;
   }
+  .hero__logo {
+    height: 80px;
+    margin-bottom: 1.5rem;
+    width: auto;
+  }
   .hero__caption {
     font-size: 0.8em;
     text-transform: uppercase;
@@ -93,7 +112,7 @@
     margin-bottom: 1.5rem;
   }
   .hero__title {
-    font-size: 2.4em;
+    font-size: 3em;
     font-weight: $bold-weight;
     margin-bottom: 1.5rem;
     line-height: 1.1;

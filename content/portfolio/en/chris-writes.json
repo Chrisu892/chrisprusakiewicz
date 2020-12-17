@@ -1,0 +1,17 @@
+{
+  "title": "Chris Writes",
+  "tagline": "Discover the World of Conqueros by reading a series of short stories written by myself!",
+  "correctPath": "/portfolio/chris-writes/",
+  "slug": "chris-writes",
+  "status": "live",
+  "thumbnail": {
+    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
+  },
+  "image1": {
+    "large": "/images/portfolio/chris-writes/chris-writes.png",
+    "small": "/images/portfolio/chris-writes/chris-writes.png"
+  },
+  "title1": "Discover the World of Conqueros",
+  "content1": ""
+}

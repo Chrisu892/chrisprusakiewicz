@@ -28,9 +28,11 @@
     display: inline-block;
     border: solid 1px $clr-white;
     border-color: rgba($clr-white, 0.1);
-    font-size: 0.9em;
+    font-family: $font-header;
+    font-size: 0.94em;
+    font-weight: $bold-weight;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     position: relative;
     transition: text-shadow 300ms ease;
 
@@ -71,7 +73,7 @@
 
     &__title {
       display: block;
-      padding: 1em 1.6em 1.1em 1.6em;
+      padding: 1.05em 1.6em 1.1em 1.6em;
     }
 
     &__title::before,
