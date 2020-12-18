@@ -61,7 +61,7 @@
       font-size: 1em;
 
       img {
-        width: 160px;
+        width: 120px;
       }
     }
   }
@@ -102,10 +102,21 @@
     animation: leave 300ms ease forwards;
   }
 
+  @media screen and (max-width: 320px) {
+    .project {
+      padding-top: 100%;
+      width: 100%;
+    }
+  }
+
   @media screen and (min-width: 768px) {
     .project {
       padding-top: 33.333%;
       width: 33.333%;
+
+      &.logo img {
+        width: 160px;
+      }
     }
   }
 

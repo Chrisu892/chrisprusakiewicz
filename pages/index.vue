@@ -35,6 +35,9 @@
       Button,
       TheSocials,
     },
+    async asyncData({ store }) {
+      await store.dispatch('fetchPages')
+    },
     computed: {
       page() {
         return this.$store.state.page
@@ -43,13 +46,37 @@
         return this.page.slug == 'index' || this.page.slug == 'contact'
       }
     },
-    async asyncData({ store }) {
-      await store.dispatch('fetchPages')
+    head() {
+      return {
+        title: `${this.page.correctPath != '/' ? this.page.title + ' : ' : ''}Chris Prusakiewicz : Professional Web Designer & Developer and Data Science student in the North East England`,
+        meta: [{
+          property: 'og:title',
+          content: this.page.title
+        },{
+          property: 'og:description',
+          content: this.page.tagline
+        },{
+          property: 'og:url',
+          content: 'https://chrisprusakiewicz.co.uk'
+        },{
+          property: 'og:image',
+          content: this.page.thumbnail ? `https://chrisprusakiewicz.co.uk${this.page.thumbnail.small}` : ''
+        },{
+          property: 'og:type',
+          content: 'website'
+        },{
+          property: 'og:locale',
+          content: 'en_GB'
+        }]
+      }
     }
   }
 </script>
 
 <style scoped lang="scss">
+
+  // Page transition
+
   .page-enter-active,
   .page-leave-active {
     transition: all 300ms ease;
@@ -81,7 +108,6 @@
   .main__content {
     height: 100%;
   }
-
   .main.index {
     height: 100vh;
     overflow: hidden;
@@ -92,6 +118,8 @@
     background-color: rgba($clr-dark, 0.6);
     height: 100%;
   }
+
+  // Hero styling
 
   .hero {
     color: $clr-white;
@@ -160,7 +188,7 @@
     }
   }
 
-  //
+  // Hero components animations
   
   @keyframes enter {
     from {
@@ -202,6 +230,12 @@
   }
 
   // Media queries
+
+  @media screen and (max-width: 768px) {
+    .hero__logo {
+      height: 60px;
+    }
+  }
 
   @media screen and (min-width: 1280px) {
     .main {

@@ -15,22 +15,31 @@
     "title": "Live Preview",
     "external": true
   },
-  "image1": {
-    "large": "/images/portfolio/argla/masthead.jpg",
-    "small": "/images/portfolio/argla/masthead.jpg"
-  },
   "title1": "Brochure website for aluminium and steel manufacturers",
   "content1": "<p>My client wanted to rebrand their old website into something new. They were looking for a modern design that would incorporate their rich library of photographs taken after completion of their projects.</p>",
-  "image2": {
-    "large": "/images/portfolio/argla/argla-browser-shot@2x.jpg",
-    "small": "/images/portfolio/argla/argla-browser-shot.jpg"
-  },
   "title2": "Built to showcase portfolio",
   "content2": "<p>When I looked at the photographs sent over to me by ARGLA, I was struck by how exciting their work is. Smooth shapes, sharp edges and tall windows - all of this combined made me feel amazed. I wanted to make sure that whoever visits their website will feel the same.</p><p>Therefore, I picked the best photographs and added them to relevant sections of the website and used subtle patterns, colours and shapes to make the website feel like it’s made out of glass and aluminium. The client wanted to show features and application areas for each of their products.</p>",
-  "image3": {
-    "large": "/images/portfolio/argla/thumb@2x.jpg",
-    "small": "/images/portfolio/argla/thumb.jpg"
-  },
   "title3": "Connecting Sales Respresentatives",
-  "content3": "<p>Also, they asked if I could link the sales representatives and their contact details to the right product. To achieve this, I had to think about relationships and how website administrators will be able to manage these relationships. The final product is a website that is managed through the bespoke Content Management System developed by the team at Edward Robertson.</p><p>The design of the website is simple and features large photography that effectively communicates that ARGLA is a leading manufacturer of glass and aluminium.</p>"
+  "content3": "<p>Also, they asked if I could link the sales representatives and their contact details to the right product. To achieve this, I had to think about relationships and how website administrators will be able to manage these relationships. The final product is a website that is managed through the bespoke Content Management System developed by the team at Edward Robertson.</p><p>The design of the website is simple and features large photography that effectively communicates that ARGLA is a leading manufacturer of glass and aluminium.</p>",
+  "headerImage": {
+    "large": "/images/portfolio/argla/masthead@2x.jpg",
+    "small": "/images/portfolio/argla/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/argla/first@2x.png",
+    "small": "/images/portfolio/argla/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/argla/intro@2x.jpg",
+    "small": "/images/portfolio/argla/intro.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/argla/iphone@2x.png",
+    "small": "/images/portfolio/argla/iphone.png",
+    "adjust": "small"
+  },
+  "sketchImage": {
+    "large": "/images/portfolio/argla/sketch@2x.png",
+    "small": "/images/portfolio/argla/sketch.png"
+  }
 }
