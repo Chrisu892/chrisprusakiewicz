@@ -1,0 +1,55 @@
+{
+  "title": "Ginny D",
+  "tagline": "Jak przenieść swój biznes do internetu? Uruchom pięknie wykonaną witrynę e-commerce na zamówienie, w której możesz sprzedawać swoje produkty, usługi oraz karty podarunkowe!",
+  "correctPath": "/portfolio/ginnyd/",
+  "slug": "ginnyd",
+  "status": "live",
+  "color": "#fe0098",
+  "logo": "/images/portfolio/ginnyd/ginnyd-logo.gif",
+  "features": [
+    "System zarządzania treścią",
+    "Łatwe zarządzanie zamówieniami i klientami",
+    "Automatyczna dystrybucja bonów upominkowych",
+    "Integracja Opayo, SparkPost i MailChimp",
+    "Wyposażony w funkcje sprzedaży krzyżowej",
+    "Łatwy w użyciu koszyk i system kasowy",
+    "Automatyczne powiadomienia e-mail o zamówieniach i bonach upominkowych",
+    "Responsywny projekt stron internetowych"
+  ],
+  "action": {
+    "link": "https://www.ginnyd.co.uk/",
+    "title": "Sam zobacz",
+    "external": true
+  },
+  "title1": "Internetowy butik z biżuterią w dobrym stylu",
+  "content1": "<p>Ginny jest projektantką biżuterii na zamówienie, która sprzedaje swoje produkty na rynkach i podczas specjalnych wydarzeń w całym kraju. Jednak z powodu ograniczeń COVID-19 rynki zostały tymczasowo zamknięte, dlatego Ginny postanowiła ulepszyć swój istniejący butik internetowy.</p><p>Ginny zdecydowała się na niestandardową witrynę e-commerce, ponieważ chciała mieć większą kontrolę nad treść i wygląd jej nowej witryny internetowej.</p>",
+  "title2": "Podejście",
+  "content2": "<p>Moje podejście polegało na zaprojektowaniu witryny przyjaznej dla urządzeń mobilnych, która prezentuje produkty i usługi Ginny. Zadbałem o to, aby strona była bardzo łatwa w użyciu. W jaki sposób? Postanowiłem wyświetlić wszystkie kategorie produktów w głównej nawigacji, aby odwiedzający mogli łatwo znaleźć to, czego potrzebują (bez funkcji wyszukiwania!). Istnieje również wygodny skrót do strony kontaktowej, a wszystkie inne informacje są łatwo dostępne z menu rozwijanego po prawej stronie. Klienci mogą również łatwo przeglądać zawartość swojego koszyka.</p><p>Ginny chciała zmaksymalizować sprzedaż, dlatego zdecydowałem się na funkcje sprzedaży krzyżowej. Z niektórych badań doszedłem do wniosku, że klienci będą prawdopodobnie kontynuować zakupy, jeśli zostaną im przedstawione podobne produkty. Teraz strona nie tylko pokazuje opinie, że produkt został dodany do koszyka, ale także sugeruje podobne produkty. Jak sprytnie!</p><p>Witryna jest pełna funkcji, takich jak reaktywny koszyk, polecane i pasujące produkty, funkcja kuponów upominkowych i kody rabatowe.</p>",
+  "title3": "Zoptymalizowany pod kątem SEO i Google PageSpeed",
+  "content3": "<p>Witryna wykorzystuje sprytne funkcje HTML5 do wczytywania wersji obrazu na komputery lub urządzenia mobilne. Ponadto każdy obraz został zoptymalizowany. Arkusz stylów został podzielony na krytyczne i niekrytyczne CSS, podczas gdy cały kod JavaScript został zminimalizowany, aby zapewnić szybkie ładowanie.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/ginnyd/thumb@2x.jpg",
+    "small": "/images/portfolio/ginnyd/thumb.jpg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/ginnyd/masthead@2x.jpg",
+    "small": "/images/portfolio/ginnyd/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/ginnyd/first@2x.png",
+    "small": "/images/portfolio/ginnyd/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/ginnyd/intro@2x.jpg",
+    "small": "/images/portfolio/ginnyd/intro.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/ginnyd/second@2x.png",
+    "small": "/images/portfolio/ginnyd/second.png"
+  },
+  "sketchImage": {
+    "large": "/images/portfolio/ginnyd/sketch@2x.png",
+    "small": "/images/portfolio/ginnyd/sketch.png"
+  },
+  "tweetId": "1322471393641041923"
+}

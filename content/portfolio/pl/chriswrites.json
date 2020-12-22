@@ -1,0 +1,26 @@
+{
+  "title": "Chris Writes",
+  "tagline": "Rysując fantastyczne mapy w starym zeszycie i wyobrażając sobie fikcyjne królestwa, postacie i ich przygody, z czasem napisałem serię opowiadań o sześciu głównych bohaterach. Dziesięć lat później zdecydowałem się opublikować ich historie",
+  "correctPath": "/portfolio/chriswrites/",
+  "slug": "chriswrites",
+  "status": "live",
+  "title1": "Odkryj nowy świat",
+  "content1": "<p>Odległy świat w galaktyce Drogi Mlecznej ma wiele niezbadanych terytoriów i tajemnic ukrytych w mistycznych lasach, ośnieżonych górach i rozległych oceanach. Poznaj pozornie znajome i dziwaczne miejsca kontynentu, rozdarte wojnami i wewnętrznymi konfliktami między jego mieszkańcami. Spotkaj grupy i jednostki zjednoczone sojuszami, dobrobytem i pogonią za starożytną wiedzą, a także tych, którzy czają się w cieniu, knując plany aby zmienić przyszłość tego świata.</p>",
+  "title2": "Współpraca z artystami z całego świata, aby ożywić bohaterów i ich przygody",
+  "content2": "<p>Cieszę się, że mogę współpracować z kilkoma artystami, którzy byli gotowi pomóc mi w utworzeniu niesamowitych grafik do tego długoterminowego projektu. W przyszłości planuję stopniowo rozbudowywać tę witrynę do tego stopnia, że z czasem jej mały wszechświat zamieni się w książkę.</p>",
+  "title3": "Chcesz wnieść swój wkład?",
+  "content3": "<p>Zawsze szukam utalentowanych artystów! Jeśli chcesz pomóc, wypromować swoją pracę lub szukasz sposobu na podniesienie swoich umiejętności i zarobienie w międzyczasie pieniędzy, napisz do mnie na mój e-mail: <a href='mailto:chris.prusakiewicz@gmail.com' target='_ blank'>chris.prusakiewicz@gmail.com</ a>.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
+  },
+  "introImage": {
+    "large": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "small": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "browserShot": true
+  }
+}

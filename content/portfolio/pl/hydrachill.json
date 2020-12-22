@@ -1,0 +1,44 @@
+{
+  "title": "HydraChill",
+  "tagline": "Jak promować przyjazne dla środowiska stacje uzupełniania wody? Utwórz witrynę przyjazną dla urządzeń mobilnych, którą możesz odwiedzać w dowolnym miejscu!",
+  "correctPath": "/portfolio/hydrachill/",
+  "slug": "hydrachill",
+  "status": "live",
+  "features": [
+    "Indywidualny system zarządzania treścią",
+    "Animuj w przewijanych animacjach CSS",
+    "Responsywnie zaprojektowane witryny internetowe",
+    "Wideo w tle"
+  ],
+  "action": {
+    "title": "Podgląd na żywo",
+    "link": "https://www.hydrachill.com/",
+    "external": true
+  },
+  "title1": "Następny duży kamień milowy",
+  "content1": "<p>Po udanej ekspansji na rynki takie jak szkoły, uniwersytety i państwowa służba zdrowia, walijski producent stacji uzupełniania wody zdecydował się odświeżyć wygląd swojej strony internetowej. </p> <p> Firma HydraChill opublikowała film przedstawiający wszystkie funkcje i zalety jej stacji uzupełniania wody. Sztuczka prowadząca do sukcesu polegała na tym, aby utrzymać wideo na stałe, tak aby znajdowało się w centralnym punkcie przez nieco dłuższy czas, podczas gdy użytkownicy przewijali stronę główną, mogli dowiedzieć się o kluczowych funkcjach urządzenia i dłużej na stronie głównej.</p>",
+  "title2": "Wideo w tle",
+  "content2": "<p>Jak sprawić, by wideo pozostało na miejscu, podczas gdy użytkownicy przewijają stronę w dół, i jak zmaksymalizować czytelność tekstu na górze bez pogorszenia przejrzystości wideo? </p> <p> Sztuczka polega na dodaniu subtelnego, półprzezroczystego warstwa między wideo a tekstem. Dzięki temu użytkownicy mogą czytać zawartość, podczas gdy wideo jest odtwarzane w tle. Nie zapomnij jednak dodać atrybutów autoodtwarzania i wyciszenia do tagu wideo, w przeciwnym razie wideo nie będzie odtwarzane! Ważne jest również dodanie atrybutu playsinline, aby film był odtwarzany automatycznie na urządzeniach mobilnych.</p>",
+  "title3": "Wynik robi różnicę",
+  "content3": "<p>Produktem końcowym jest witryna internetowa, która integruje wideo w tle, animacje i funkcje interaktywne, takie jak rozwijane pudełka, z dodatkowymi informacjami o funkcjach produktu. W ten sposób użytkownicy mogą zdecydować, czy chcą dowiedzieć się więcej, czy nie. Strony internetowe nie muszą być ładowane dużą ilością tekstu. </p> <p> Ten projekt jest doskonałym przykładem tego, jak wideo może mieć duży wpływ na sposób, w jaki Twoja witryna przekazuje informacje o Twoich produktach lub usługach.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
+    "small": "/images/portfolio/hydrachill/thumb.jpg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/hydrachill/masthead@2x.jpg",
+    "small": "/images/portfolio/hydrachill/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/hydrachill/first@2x.png",
+    "small": "/images/portfolio/hydrachill/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/hydrachill/intro@2x.jpg",
+    "small": "/images/portfolio/hydrachill/intro.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/hydrachill/second@2x.png",
+    "small": "/images/portfolio/hydrachill/second.png"
+  }
+}

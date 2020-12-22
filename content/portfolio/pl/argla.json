@@ -1,0 +1,45 @@
+{
+  "title": "ARGLA",
+  "tagline": "Responsywne projektowanie stron internetowych dla specjalistów ds. Szkła architektonicznego i aluminium w hrabstwie Durham",
+  "correctPath": "/portfolio/argla/",
+  "slug": "argla",
+  "status": "live",
+  "color": "#009494",
+  "logo": "/images/portfolio/argla/argla-white-logo.png",
+  "thumbnail": {
+    "large": "/images/portfolio/argla/thumb@2x.jpg",
+    "small": "/images/portfolio/argla/thumb.jpg"
+  },
+  "action": {
+    "link": "http://www.argla.co.uk/",
+    "title": "Podgląd na żywo",
+    "external": true
+  },
+  "title1": "Lider w produkcji szkła architektonicznego i aluminium",
+  "content1": "<p>Firma chciała zmienić markę swojej starej witryny internetowej, aby lepiej prezentować swoje produkty i projekty na zamówienie swoim klientom. Moją rolą w tym projekcie było zaprojektowanie i zbudowanie nowej strony internetowej, w tym opracowanie narzędzia wyszukiwania, fot. galerie i formularz kontaktowy.</p>",
+  "title2": "Podejście",
+  "content2": "<p>Pracowałem z klientem oraz innymi projektantami i programistami stron internetowych, aby zaprojektować i zbudować witrynę internetową, która wykorzystuje bogate obrazy do prezentowania produktów i projektów. </p> <p> Obrazy pomogły mi zaprojektować nowoczesną witrynę internetową, która dobrze pasuje do wyglądu i stylu współczesnej architektury. Prosta, trójkolorowa paleta została zainspirowana logo. Daje stronie przewagę i sprawia, że wygląda nowocześnie. </p> <p> Utworzenie responsywnej witryny było trudne, ponieważ zawiera ona dużo dużych obrazów. Jednak techniki kompresji pozwoliły nam zmniejszyć przepustowość i sprawić, by strona działała tak płynnie, jak to tylko możliwe.</p>",
+  "title3": "Łączenie przedstawicieli handlowych",
+  "content3": "<p>Witryna korzysta z wewnętrznego systemu zarządzania treścią, który umożliwia klientowi nie tylko zarządzanie stronami, ale także produktami, aktualnościami i wszystkimi zdjęciami. System umożliwia klientowi przypisanie przedstawicieli handlowych do każdego projektu i produktu. Dzięki temu odwiedzający witrynę internetową mogą kontaktować się bezpośrednio z właściwą osobą.</p><p>Mamy nadzieję, że posiadanie dostosowanego systemu zarządzania treścią pomoże ARGLA w aktualizowaniu jej witryny w miarę rozwoju firmy.</p>",
+  "headerImage": {
+    "large": "/images/portfolio/argla/masthead@2x.jpg",
+    "small": "/images/portfolio/argla/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/argla/first@2x.png",
+    "small": "/images/portfolio/argla/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/argla/intro@2x.jpg",
+    "small": "/images/portfolio/argla/intro.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/argla/iphone@2x.png",
+    "small": "/images/portfolio/argla/iphone.png",
+    "adjust": "small"
+  },
+  "sketchImage": {
+    "large": "/images/portfolio/argla/sketch@2x.png",
+    "small": "/images/portfolio/argla/sketch.png"
+  }
+}

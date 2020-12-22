@@ -82,7 +82,7 @@
     <div v-if="page.tweetId" class="project__tweet" ref="tweet" />
 
     <div class="project__return">
-      <Button :action="{ link: '/portfolio/', title: 'View all Projects' }" />
+      <Button :action="{ link: '/portfolio/', title: $t('moreProjects') }" />
     </div>
 
   </article>

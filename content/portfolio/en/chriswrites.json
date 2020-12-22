@@ -1,0 +1,26 @@
+{
+  "title": "Chris Writes",
+  "tagline": "Drawing fantastic maps in an old notebook and imagining fictional kingdoms, characters and their adventures, over time I wrote a series of short stories about the six main characters. Ten years later, I decided to publish their stories",
+  "correctPath": "/portfolio/chriswrites/",
+  "slug": "chriswrites",
+  "status": "live",
+  "title1": "Discover the New World",
+  "content1": "<p>The distant world in the Milky Way galaxy has many unexplored territories and secrets hidden in mystical forests, snow-capped mountains and vast oceans. Explore the continent's famous and bizarre places, torn apart by wars and internal battles between its inhabitants. Meet groups and individuals united by alliances, prosperity and the pursuit of ancient knowledge, as well as those who lurk in the shadows, plotting plans to change the future of this world.</p>",
+  "title2": "Working with artists around the world to bring heroes and their adventures to life",
+  "content2": "<p>I am happy to be working with several artists who were ready to help me create amazing artwork for this long term project. In the future, I plan to gradually expand this site to such an extent that over time its little universe will turn into a book.</p>",
+  "title3": "Want to contribute?",
+  "content3": "<p>I'm always looking for talented artists! If you want to help, promote your work or are looking for a way to improve your skills and earn money in the meantime, write to me on my e-mail:<a href = 'mailto:chris.prusakiewicz@gmail.com' target='_ blank'>chris.prusakiewicz@gmail.com</a>.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
+  },
+  "introImage": {
+    "large": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "small": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "browserShot": true
+  }
+}
