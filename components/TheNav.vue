@@ -87,6 +87,7 @@
     padding: 0;
   }
   .nav__list__link {
+    color: $clr-white;
     display: block;
     padding: 1rem 2rem;
     position: relative;

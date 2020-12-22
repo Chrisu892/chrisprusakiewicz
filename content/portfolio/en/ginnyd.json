@@ -1,6 +1,6 @@
 {
   "title": "Ginny D",
-  "tagline": "How to move your business online? Launch a beautifully made bespoke ecommerce website to sale your products and services",
+  "tagline": "How to move your business online? Launch a beautifully made bespoke ecommerce website to sell your products, services and... gift cards!",
   "correctPath": "/portfolio/ginnyd/",
   "slug": "ginnyd",
   "status": "live",
@@ -22,11 +22,11 @@
     "external": true
   },
   "title1": "Online jewellery boutique with style",
-  "content1": "<p>Ginny is a bespoke jewellery maker who used to sell jewellery on the markets across the country. However, due to the COVID-19 government restrictions, she decided to move her business online.</p>",
-  "title2": "Great results from day one!",
-  "content2": "<p>The new website needed to reflect her brand - expensive feeling and high quality. We decided to design a website that is minimalist and focuses on Ginny's products, but in the meantime is easy to use and takes the advantage of simple, but effective, cross-selling features to maximise revenue. As a result, over 10 orders have been placed on the lauch day!</p>",
-  "title3": "Optimised for Search Engines",
-  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
+  "content1": "<p>Ginny is a bespoke jewellery maker who sells jewellery on the markets across the country. However, due to the COVID-19 restrictions, the markets were temporarily closed, therefore she decided to move her business online.</p><p>Ginny decided to go for a bespoke ecommerce website instead of Shopify, because Edward Robertson is a trusted tech partner with a team of talented designers who are happy to provide continous support with the website.</p>",
+  "title2": "Approach",
+  "content2": "<p>My approach was to design a mobile-friendly website that showcases Ginny's products and services. I took extra care to make sure that the site is super easy to use. How? I decided to display all product categories in the main navigation, so that visitors can easily find what they need (no need for search facility!). There is also a handy shortcut to the contact page, while all other information are easily availble from the right handside dropdown menu. Customers can also easily preview the contents of their basket.</p><p>Ginny wanted maximise the sales, therefore I opted for a cross-selling features. With some research, I figured out that customers are likely to continue shopping if they are presented with similar products. Now, the site not only shows feedback that product has been added to the basket, but also suggests similar products. How clever!</p><p>The site is packed with features, such as reactive basket, featured and matching products, gift voucher facility and discount codes.</p>",
+  "title3": "Optimised for SEO and Google's PageSpeed",
+  "content3": "<p>The site utilises clever features of HTML5 to load either desktop or mobile version of the image. Also, each image has been optimised. The stylsheet has been split into critical and non-critical CSS, whereas all JavaScript code has been minified to ensure fast loading speeds.</p>",
   "thumbnail": {
     "large": "/images/portfolio/ginnyd/thumb@2x.jpg",
     "small": "/images/portfolio/ginnyd/thumb.jpg"
@@ -50,5 +50,7 @@
   "sketchImage": {
     "large": "/images/portfolio/ginnyd/sketch@2x.png",
     "small": "/images/portfolio/ginnyd/sketch.png"
-  }
+  },
+  "tweetId": "1322471393641041923",
+  "tweet": "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>No tricks here... but definitely a treat! The all new and enhanced website is now LIVE! 🍾🥂I hope you’re as pleased with it as I am. 💕 <a href='https://twitter.com/hashtag/jewellerystore?src=hash&amp;ref_src=twsrc%5Etfw'>#jewellerystore</a> <a href='https://twitter.com/hashtag/onlinestore?src=hash&amp;ref_src=twsrc%5Etfw'>#onlinestore</a> <a href='https://twitter.com/hashtag/sterlingsilverjewellery?src=hash&amp;ref_src=twsrc%5Etfw'>#sterlingsilverjewellery</a> <a href='https://twitter.com/hashtag/ginnyd?src=hash&amp;ref_src=twsrc%5Etfw'>#ginnyd</a> <a href='https://twitter.com/edrobwebdesign?ref_src=twsrc%5Etfw'>@edrobwebdesign</a> <a href='https://twitter.com/hashtag/digitaladvantage?src=hash&amp;ref_src=twsrc%5Etfw'>#digitaladvantage</a> <a href='https://t.co/6rPahqhgCB'>pic.twitter.com/6rPahqhgCB</a></p>&mdash; Ginny D (@Ginnydjewellery) <a href='https://twitter.com/Ginnydjewellery/status/1322471393641041923?ref_src=twsrc%5Etfw'>October 31, 2020</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>"
 }

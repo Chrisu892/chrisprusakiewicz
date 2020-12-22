@@ -26,7 +26,8 @@ html {
 a,
 a:visited,
 a:active {
-  color: $clr-white;
+  color: inherit;
+  font-weight: inherit;
   text-decoration: none;
   display: inline-block;
 }

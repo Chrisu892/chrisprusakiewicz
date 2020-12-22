@@ -51,6 +51,7 @@
     }
   }
   .project__title {
+    color: $clr-white;
     font-weight: $bold-weight;
     font-size: 1.5em;
     position: relative;

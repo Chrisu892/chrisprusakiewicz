@@ -26,6 +26,7 @@
     padding-right: 0.7rem;
   }
   .lang__link {
+    color: $clr-white;
     letter-spacing: 1px;
   }
   .lang__link.nuxt-link-active {

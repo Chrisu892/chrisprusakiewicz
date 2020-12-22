@@ -1,6 +1,6 @@
 {
   "title": "ARGLA",
-  "tagline": "Website for glass and aluminium manufacturer",
+  "tagline": "Responsive web design for the architectural glass and aluminium specialists in the County Durham.",
   "correctPath": "/portfolio/argla/",
   "slug": "argla",
   "status": "live",
@@ -15,12 +15,12 @@
     "title": "Live Preview",
     "external": true
   },
-  "title1": "Brochure website for aluminium and steel manufacturers",
-  "content1": "<p>My client wanted to rebrand their old website into something new. They were looking for a modern design that would incorporate their rich library of photographs taken after completion of their projects.</p>",
-  "title2": "Built to showcase portfolio",
-  "content2": "<p>When I looked at the photographs sent over to me by ARGLA, I was struck by how exciting their work is. Smooth shapes, sharp edges and tall windows - all of this combined made me feel amazed. I wanted to make sure that whoever visits their website will feel the same.</p><p>Therefore, I picked the best photographs and added them to relevant sections of the website and used subtle patterns, colours and shapes to make the website feel like it’s made out of glass and aluminium. The client wanted to show features and application areas for each of their products.</p>",
+  "title1": "Leading the way in the manufacturing of architectural glass and aluminium",
+  "content1": "<p>ARGLA specialises in the design, manufacture and installation of architectural glass and alumiunium. They wanted to rebrand their old website to showcase their bespoke products and projects to their clients.</p><p>My role in this project was to design and build the new website, including development of the search facility, image galleries and contact form.</p>",
+  "title2": "Approach",
+  "content2": "<p>I worked with the client alongside other web developers to design and build website that utilises rich imagery to showcase products and projects.</p><p>The images helped me to design a modern website that goes well with the look and feel of the modern architecture. A simple three-colour pallete has been inspired by the logo. It gives the edge to the site and makes it look modern.</p><p>Making the website responsive was tricky, because the site contains a lot of large images. However, compression techniques enabled us to ease the bandwidth and make the site work as smooth as possible.</p>",
   "title3": "Connecting Sales Respresentatives",
-  "content3": "<p>Also, they asked if I could link the sales representatives and their contact details to the right product. To achieve this, I had to think about relationships and how website administrators will be able to manage these relationships. The final product is a website that is managed through the bespoke Content Management System developed by the team at Edward Robertson.</p><p>The design of the website is simple and features large photography that effectively communicates that ARGLA is a leading manufacturer of glass and aluminium.</p>",
+  "content3": "<p>The site uses in-house Content Management System that enables the client to manage pages, products and much more. This includes assigning sales representatives to each product.</p><p>We hope that having a bespoke CMS will help ARGLA to update their website as their business is growing.</p>",
   "headerImage": {
     "large": "/images/portfolio/argla/masthead@2x.jpg",
     "small": "/images/portfolio/argla/masthead.jpg"

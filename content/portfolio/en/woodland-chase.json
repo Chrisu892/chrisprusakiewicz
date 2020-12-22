@@ -4,31 +4,39 @@
   "correctPath": "/portfolio/woodland-chase/",
   "slug": "woodland-chase",
   "status": "live",
-  "thumbnail": {
-    "large": "/images/portfolio/woodland-chase/thumb@2x.jpg",
-    "small": "/images/portfolio/woodland-chase/thumb.jpg"
-  },
   "action": {
     "title": "Live Preview",
     "link": "https://www.woodlandchaseglamping.co.uk/",
     "external": true
   },
-  "image1": {
-    "large": "/images/portfolio/woodland-chase/thumb@2x.jpg",
-    "small": "/images/portfolio/woodland-chase/thumb.jpg"
-  },
   "title1": "Woodland Chase Glamping",
   "content1": "<p>Woodland Chase is a family run business that offers countryside accommodation in one of their handcrafted treehouses. They were looking for a web designer who could create a website to promote their business and allow people to easily check availability of their treehouses and book one.</p><p>My role in this project was to transform HTML and CSS templates into dynamic web pages with interactive features like booking calendar and SagePay integration to process online payments.</p>",
-  "image2": {
-    "large": "/images/portfolio/woodland-chase/thumb@2x.jpg",
-    "small": "/images/portfolio/woodland-chase/thumb.jpg"
-  },
   "title2": "Bespoke Online Booking System",
   "content2": "<p>Firstly, the client wanted bespoke and “hand-crafted” features on their website that would match their business model. Secondly, we wanted a booking system that matches the look and feel of the website and existing plugins failed to satisfy this requirement.</p><p>The booking system required a lot of planning and testing. The system should be smart enough to figure out which dates are available or not. Moreover, it was necessary to ensure that the user selection meets the minimum number of nights and that unavailable dates are disabled.</p><p>People should be able to pay for the booking, therefore we’ve used SagePay as our preferred payments provider. Integration of this service was easy and all payments are processed securely.</p>",
-  "image3": {
+  "title3": "The end result",
+  "content3": "<p>The finished product is a responsive website that not only is optimised for SEO but also features bespoke, “hand-crafted” elements that the Woodland Chase is so proud of.</p><p>It has been a challenging project that taught me a lot about booking systems and payment processing and I hope that their new website will serve them well in the foreseeable future.</p>",
+  "thumbnail": {
     "large": "/images/portfolio/woodland-chase/thumb@2x.jpg",
     "small": "/images/portfolio/woodland-chase/thumb.jpg"
   },
-  "title3": "The end result",
-  "content3": "<p>The finished product is a responsive website that not only is optimised for SEO but also features bespoke, “hand-crafted” elements that the Woodland Chase is so proud of.</p><p>It has been a challenging project that taught me a lot about booking systems and payment processing and I hope that their new website will serve them well in the foreseeable future.</p>"
+  "headerImage": {
+    "large": "/images/portfolio/woodland-chase/header@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/header.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/woodland-chase/laptop@2x.png",
+    "small": "/images/portfolio/woodland-chase/laptop.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/woodland-chase/large-image@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/large-image.jpg"
+  },
+  "extraImage": {
+    "large": "/images/portfolio/woodland-chase/header@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/header.jpg"
+  },
+  "extraCutout": {
+    "large": "/images/portfolio/woodland-chase/third@2x.png",
+    "small": "/images/portfolio/woodland-chase/third.png"
+  }
 }

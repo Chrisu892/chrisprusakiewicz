@@ -4,31 +4,35 @@
   "correctPath": "/portfolio/sportbottle/",
   "slug": "sportbottle",
   "status": "live",
-  "thumbnail": {
-    "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
-    "small": "/images/portfolio/sportbottle/thumb.jpg"
-  },
   "action": {
     "title": "Live Preview",
     "link": "https://www.sportbottle.co.uk/",
     "external": true
   },
-  "image1": {
-    "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
-    "small": "/images/portfolio/sportbottle/thumb.jpg"
-  },
   "title1": "Reusable water bottles that last, like their responsive website",
   "content1": "<p>SportBottle is a manufacturer of reusable water bottles that operates in the U.K. and Ireland. After years of successful presence on the market, they’ve decided to refresh the look and feel of their old website.</p>",
-  "image2": {
-    "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
-    "small": "/images/portfolio/sportbottle/thumb.jpg"
-  },
   "title2": "About Sportbottle",
   "content2": "<p>The SportBottle’s mission is to reduce single-use plastic. They aim to provide a solution to plastic pollution that is destroying our planet. Thus, the client wanted a website that would inform people about their objectives and demonstrate how a reusable water bottle could help to save the planet.</p><p>When SportBottle decided to add a custom bottle builder that users could use to build their own bottles and order them, we faced complications. How to build a complex feature that is both interactive and responsive to different screen sizes?</p>",
-  "image3": {
+  "title3": "The Result",
+  "content3": "<p>The finished product is a mobile-friendly, SEO-optimised website that does exactly what the client required. Their customers can customise bottles, place an order and pay online straight on their website. That gives SportBottle not only a website, but also a system that lets them track and manage placed orders.</p>",
+  "thumbnail": {
     "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
     "small": "/images/portfolio/sportbottle/thumb.jpg"
   },
-  "title3": "The Result",
-  "content3": "<p>The finished product is a mobile-friendly, SEO-optimised website that does exactly what the client required. Their customers can customise bottles, place an order and pay online straight on their website. That gives SportBottle not only a website, but also a system that lets them track and manage placed orders.</p>"
+  "headerImage": {
+    "large": "/images/portfolio/sportbottle/masthead@2x.jpg",
+    "small": "/images/portfolio/sportbottle/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/sportbottle/first@2x.png",
+    "small": "/images/portfolio/sportbottle/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/sportbottle/masthead@2x.jpg",
+    "small": "/images/portfolio/sportbottle/masthead.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/sportbottle/second@2x.png",
+    "small": "/images/portfolio/sportbottle/second.png"
+  }
 }

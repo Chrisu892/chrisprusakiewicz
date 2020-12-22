@@ -12,6 +12,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://use.typekit.net/ppv6pep.css' }
+    ],
+    script: [
+      { hid: 'twitter', type: 'text/javascript', src: 'https://platform.twitter.com/widgets.js' }
     ]
   },
 

@@ -1,17 +1,26 @@
 {
   "title": "Chris Writes",
-  "tagline": "Discover the World of Conqueros by reading a series of short stories written by myself!",
+  "tagline": "By drawing fantasy maps in the old notepad and imagining fictional kingdoms, heroes and villains, over the time, I wrote a series of short stories about six major characters. A decade later, I decided to publish their stories",
   "correctPath": "/portfolio/chris-writes/",
   "slug": "chris-writes",
   "status": "live",
+  "title1": "Discover the World of Conqueros",
+  "content1": "<p>A distant world in the Milky Way galaxy has many uncharted territories and secrets hidden within it's mystical forests, snowy mountains and vast oceans. Explore outlandish places of the Continent divided by wars and internal struggles between it's nations. Meet groups and individuals united by alliances, prosperity and pursuit of ancient knowledge and those who lurk in the shadows.</p>",
+  "title2": "Working with artists across the world to bring the characters alive",
+  "content2": "<p>I've been in touch with several arists who were happy to help me out with creating amazing artwork for this long-term project. I'm planning to gradually build up a website into it's own, little universe that eventually would grow into a book.</p>",
+  "title3": "Want to contribute?",
+  "content3": "<p>I'm always on the look out for talented artists! If you want to help and earn extra £££, please get in touch by email: <a href='mailto:chris.prusakiewicz@gmail.com' target='_blank'>chris.prusakiewicz@gmail.com</a>.</p>",
   "thumbnail": {
     "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
     "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
   },
-  "image1": {
-    "large": "/images/portfolio/chris-writes/chris-writes.png",
-    "small": "/images/portfolio/chris-writes/chris-writes.png"
+  "headerImage": {
+    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
   },
-  "title1": "Discover the World of Conqueros",
-  "content1": ""
+  "introImage": {
+    "large": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "small": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "browserShot": true
+  }
 }

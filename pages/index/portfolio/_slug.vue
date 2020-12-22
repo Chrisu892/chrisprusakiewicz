@@ -14,16 +14,23 @@
         </picture>
       </div>
       <div v-if="page.title1 || page.content1" class="project__content">
-        <h2 v-if="page.title1" class="project__title">
-          {{ page.title1 }}
-          <span class="project__title__underline" :style="borderColor" />
-        </h2>
-        <div v-if="page.content1" class="project__text" v-html="page.content1" />
+        <div class="project__content__col">
+          <h2 v-if="page.title1" class="project__title">
+            {{ page.title1 }}
+            <span class="project__title__underline" :style="borderColor" />
+          </h2>
+          <div v-if="page.content1" class="project__text" v-html="page.content1" />
+        </div>
+        <!-- <div v-if="page.features" class="project__content__col">
+          <ul class="project__features">
+            <li v-for="(feature, idx) in page.features" :key="idx">{{ feature }}</li>
+          </ul>
+        </div> -->
       </div>
     </div>
 
     <div v-if="page.title2 || page.content2" class="project__section reverse">
-      <div v-if="page.introImage" class="project__image bottom-shader animate persist">
+      <div v-if="page.introImage" class="project__image bottom-shader animate persist" :class="{ 'browser-shot': page.introImage.browserShot }">
         <div v-if="page.introCutout" class="project__image__overlay" />
         <picture>
           <source media="(max-width:768px)" :srcset="page.introImage.small" />
@@ -58,6 +65,21 @@
         <div v-if="page.content3" class="project__text" v-html="page.content3" />
       </div>
     </div>
+
+    <div v-if="page.extraImage" class="project__section">
+      <div v-if="page.extraCutout" class="project__image">
+        <picture>
+          <source media="(max-width:768px)" :srcset="page.extraImage.small" />
+          <img :src="page.extraImage.large" alt="Extra Project Image" class="project__image__poster" />
+        </picture>
+        <picture>
+          <source media="(max-width:768px)" :srcset="page.extraCutout.small" />
+          <img :src="page.extraCutout.large" alt="Extra Project Image" class="project__image__cutout" />
+        </picture>
+      </div>
+    </div>
+
+    <div v-if="page.tweetId" class="project__tweet" ref="tweet" />
 
     <div class="project__return">
       <Button :action="{ link: '/portfolio/', title: 'View all Projects' }" />
@@ -95,6 +117,15 @@
         if (this.page.introCutout.adjust == 'small') {
           return 'smaller'
         }
+      }
+    },
+    mounted() {
+      if (twttr && this.page.tweetId) {
+        console.info(this.$refs)
+
+        twttr.widgets.createTweet(this.page.tweetId, this.$refs.tweet)
+      } else {
+        twttr.widgets.load(this.$refs.tweet)
       }
     },
     scrollToTop: true,
@@ -160,9 +191,39 @@
       width: 60%;
     }
   }
+
+  // Project image modifier
+  .project__image.browser-shot {
+    padding: 0;
+    position: relative;
+  }
+  .project__image.browser-shot .project__image__poster {
+    position: relative;
+    transform: initial;
+    top: initial;
+    left: initial;
+  }
+
   .project__content {
     background-color: $clr-white;
+    border-bottom: solid 1px $clr-shade;
     padding: 4rem 2rem;
+
+    &.split {
+      @include flex-row;
+
+      .project__content__col {
+        width: 50%;
+      }
+    }
+  }
+
+  .project__text a {
+    color: $clr-dark;
+    font-weight: $bold-weight;
+  }
+  .project__features {
+    padding: 5.3rem 0 0 2rem;
   }
   .project__title {
     color: $clr-dark;
@@ -179,6 +240,17 @@
     left: 0;
     position: absolute;
     width: 3rem;
+  }
+  .project__tweet {
+    @include flex-row;
+    background-color: $clr-white;
+    border-top: solid 1px $clr-shade;
+    justify-content: center;
+    padding: 4rem 2rem;
+  }
+  .project__tweet__embed {
+    @include flex-row;
+    justify-content: center;
   }
   .project__return {
     padding: 6rem 2rem;

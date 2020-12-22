@@ -1,34 +1,44 @@
 {
   "title": "HydraChill",
-  "tagline": "Brochure website for a water refilling stations manufacturer in Wales",
+  "tagline": "How to promote environmentally-friendly water refilling stations? Create a mobile-friendly website that you can visit on the go!",
   "correctPath": "/portfolio/hydrachill/",
   "slug": "hydrachill",
   "status": "live",
-  "thumbnail": {
-    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
-    "small": "/images/portfolio/hydrachill/thumb.jpg"
-  },
+  "features": [
+    "Bespoke Content Management System",
+    "Animate on Scroll CSS Animations",
+    "Responsive Web Design",
+    "Background Video"
+  ],
   "action": {
     "title": "Live Preview",
     "link": "https://www.hydrachill.com/",
     "external": true
   },
-  "image1": {
-    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
-    "small": "/images/portfolio/hydrachill/thumb.jpg"
-  },
-  "title1": "Responsive web desgin",
+  "title1": "Responsive Web Design",
   "content1": "<p>After successfully expanding their operations to cover markets like schools, universities, sport, leisure and NHS, a welsh water refilling station manufacturer seeked to refresh the look and feel of their website.</p><p>HydraChill provided a video that demonstrates all the features and benefits of their water refilling stations. The trick to success was to make sure that the video is in the focal point for a little bit longer while users scroll down the homepage to explore the key features of the machine and stay longer on the homepage.</p>",
-  "image2": {
-    "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
-    "small": "/images/portfolio/hydrachill/thumb.jpg"
-  },
   "title2": "Background video",
   "content2": "<p>How to make the video stay in place while users scroll down the page, and how to maximise legibility of the text on top without compromising the video clarity?</p><p>The trick is to add a subtle, semi-transparent layer between video and text. Consequently, users are able to read the content while the video plays in the background. However, don't forget to add autoplay and muted attributes to the video tag, otherwise video won't play! It's also important to add playsinline attribute, so that the video autoplays on mobile devices.</p>",
-  "image3": {
+  "title3": "The result makes a difference",
+  "content3": "<p>The final product is a website that integrates background video, animations and interactive features like expandable boxes with more information about product features. That way, users can decide themselves if they want to learn more or not. Webpages don’t have to be loaded with lots of text.</p><p>This project is a perfect example of how video could make a big difference on how your website conveys information about your products or services.</p>",
+  "thumbnail": {
     "large": "/images/portfolio/hydrachill/thumb@2x.jpg",
     "small": "/images/portfolio/hydrachill/thumb.jpg"
   },
-  "title3": "The result makes a difference",
-  "content3": "<p>The final product is a website that integrates background video, animations and interactive features like expandable boxes with more information about product features. That way, users can decide themselves if they want to learn more or not. Webpages don’t have to be loaded with lots of text.</p><p>This project is a perfect example of how video could make a big difference on how your website conveys information about your products or services.</p>"
+  "headerImage": {
+    "large": "/images/portfolio/hydrachill/masthead@2x.jpg",
+    "small": "/images/portfolio/hydrachill/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/hydrachill/first@2x.png",
+    "small": "/images/portfolio/hydrachill/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/hydrachill/intro@2x.jpg",
+    "small": "/images/portfolio/hydrachill/intro.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/hydrachill/second@2x.png",
+    "small": "/images/portfolio/hydrachill/second.png"
+  }
 }

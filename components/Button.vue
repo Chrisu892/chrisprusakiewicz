@@ -28,6 +28,7 @@
     display: inline-block;
     border: solid 1px $clr-white;
     border-color: rgba($clr-white, 0.1);
+    color: $clr-white;
     font-family: $font-header;
     font-size: 0.94em;
     font-weight: $bold-weight;
