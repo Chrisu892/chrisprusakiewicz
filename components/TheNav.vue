@@ -3,11 +3,6 @@
     id="nav"
     class="nav"
     :class="{ 'active': isActive }">
-    <div
-      class="nav__images"
-      :style="`background:url('/images/work.jpg') center center/cover no-repeat;`">
-
-    </div>
     <ul
       class="nav__list">
       <li
@@ -15,10 +10,14 @@
         :key="idx"
         class="nav__list__item"
         @click="toggleNav()">
+        <picture>
+          <source media="(max-width:768px)" :srcset="page.image.small" />
+          <img :src="page.image.large" :alt="page.title" class="nav__list__image" />
+        </picture>
         <nuxt-link
           :to="localePath(page.correctPath)"
           class="nav__list__link">
-          {{ page.navTitle }}
+          <span>{{ page.navTitle }}</span>
         </nuxt-link>
       </li>
     </ul>
@@ -46,52 +45,87 @@
 <style scoped lang="scss">
   .nav {
     @include absolute-fill;
-    @include flex-row;
     background-color: $clr-dark;
     position: fixed;
     visibility: hidden;
     opacity: 0;
+    z-index: 1;
     transition:
       visibility 300ms ease-in-out,
       opacity 300ms ease-in-out;
-    z-index: 1;
 
     &.active {
       visibility: visible;
       opacity: 1;
     }
   }
-  .nav__images {
-    position: relative;
-    width: 100%;
+  .nav__list {
+    @include flex-row;
     height: 100%;
+    width: 100%;
+  }
+  .nav__list__item {
+    color: $clr-white;
+    margin: 0;
+    padding: 0;
+    width: 33.333%;
+    overflow: hidden;
+    position: relative;
+  }
+  .nav__list__image {
+    @include absolute-fill;
+    transition: transform 300ms ease;
 
+    @supports (object-fit: cover) {
+      object-fit: cover;
+    }
+  }
+  .nav__list__link {
+    @include absolute-fill;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
     &::before {
       @include absolute-fill;
       background-color: $clr-dark;
       content: '';
-      opacity: 0.84;
+      opacity: 0.8;
+    }
+
+    span {
+      color: $clr-white;
+      font-size: 2.4em;
+      font-weight: $bold-weight;
+      position: absolute;
       z-index: 1;
+      left: 50%;
+      bottom: 10%;
+      transform: translateX(-50%);
+      text-align: center;
+      line-height: 1.2;
     }
   }
-  .nav__list {
-    @include absolute-fill;
-    font-size: 1.75em;
-    font-weight: $bold-weight;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 7rem 0 4rem 0;
+
+  // Hover states
+
+  .nav__list__item:hover .nav__list__image {
+    transform: scale(1.1);
   }
-  .nav__list__item {
-    margin: 0;
-    padding: 0;
-  }
-  .nav__list__link {
-    color: $clr-white;
-    display: block;
-    padding: 1rem 2rem;
-    position: relative;
-    width: 100%;
-    z-index: 3;
+
+  // Media queries
+
+  @media screen and (max-width: 768px) {
+    .nav__list {
+      @include flex-column;
+    }
+    .nav__list__item {
+      height: 33.333%;
+      width: 100%;
+    }
+    .nav__list__link span {
+      font-size: 2em;
+    }
   }
 </style>

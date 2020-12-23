@@ -9,5 +9,9 @@
     "link": "mailto:chris.prusakiewicz@gmail.com",
     "title": "Send a Message",
     "external": true
+  },
+  "image": {
+    "large": "/images/hero-slide-03.jpg",
+    "small": "/images/hero-slide-03--768px.jpg"
   }
 }

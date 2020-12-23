@@ -9,5 +9,9 @@
   "action": {
     "link": "/portfolio/",
     "title": "View my work"
+  },
+  "image": {
+    "large": "/images/hero-slide-01.jpg",
+    "small": "/images/hero-slide-01--768px.jpg"
   }
 }

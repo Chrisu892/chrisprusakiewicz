@@ -4,5 +4,9 @@
   "tagline": "As a web designer at Edward Robertson, I'm creating fantastic websites for clients across the UK",
   "correctPath": "/portfolio/",
   "status": "live",
-  "order": 2
+  "order": 2,
+  "image": {
+    "large": "/images/hero-slide-02.jpg",
+    "small": "/images/hero-slide-02--768px.jpg"
+  }
 }

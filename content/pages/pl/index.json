@@ -1,7 +1,7 @@
 {
   "caption": "Planowanie, projektowanie, wykonanie",
   "title": "Witam, nazywam się Krzysiek",
-  "navTitle": "Strona Glowna",
+  "navTitle": "Strona Główna",
   "tagline": "Jestem projektantem stron internetowych, programistą i studentem nauki o danych",
   "status": "live",
   "correctPath": "/",
@@ -9,5 +9,9 @@
   "action": {
     "link": "/portfolio/",
     "title": "Zobacz moje projekty"
+  },
+  "image": {
+    "large": "/images/hero-slide-01.jpg",
+    "small": "/images/hero-slide-01--768px.jpg"
   }
 }

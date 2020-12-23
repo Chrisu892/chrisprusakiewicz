@@ -4,5 +4,9 @@
   "tagline": "Jako projektant stron internetowych w firmie Edward Robertson tworzę fantastyczne strony internetowe dla klientów z całej Wielkiej Brytanii",
   "status": "live",
   "correctPath": "/portfolio/",
-  "order": 2
+  "order": 2,
+  "image": {
+    "large": "/images/hero-slide-02.jpg",
+    "small": "/images/hero-slide-02--768px.jpg"
+  }
 }
