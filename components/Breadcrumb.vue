@@ -31,18 +31,18 @@
     margin-bottom: 1.5rem;
   }
   .breadcrumb__item {
-    margin: 0 1rem 0 0;
-    padding-right: 1rem;
+    margin: 0;
+    padding: 0 2rem 0 0;
     position: relative;
 
     &:not(:last-child)::before {
       content: '';
       position: absolute;
       top: 50%;
-      right: 0;
+      right: 1rem;
       width: 4px;
       height: 4px;
-      background-color: $clr-dark;
+      background-color: $clr-white;
       transform: translateY(-50%);
     }
   }
@@ -55,31 +55,38 @@
 </style>
 
 <script>
+  const titleCase = require('ap-style-title-case')
+
   export default {
     computed: {
       crumbs() {
-        let currentPath = this.$route.path.split('/')
-        currentPath.shift()
-        currentPath.splice(-1, 1)
+        const fullPath = this.$route.fullPath
+        const params = fullPath.substring(1).split('/')
+        const crumbs = [];
 
-        console.log(currentPath)
+        let path = ''
+        let pages = ['En', 'Pl']
 
-        if (currentPath[1] == '') {
-          currentPath = []
-        }
+        params.forEach((param, idx) => {
+          path = `${path}/${param}`
+          const match = this.$router.match(path)
 
-        let breadcrumbs = currentPath.reduce((crumbs, path, idx) => {
-          crumbs.push({
-            path: path === '' ? '/' : '/' + path,
-            title: path === '' ? 'home' : path,
-            to: crumbs[idx - 1]
-              ? '/' + crumbs[idx - 1].path + '/'
-              : '/' + path
-          })
-          return crumbs
-        }, [])
+          if (match.name !== null && this.$route.name !== match.name) {
+            let pageTitle = titleCase(param.replace(/-/g, ' '))
 
-        return breadcrumbs
+
+            if (pageTitle == 'En' || pageTitle == 'Pl') {
+              pageTitle = 'Home'
+            }
+            
+            crumbs.push({
+              title: pageTitle,
+              ...match,
+            })
+          }
+        })
+
+        return crumbs
       }
     }
   }

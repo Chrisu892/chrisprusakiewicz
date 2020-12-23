@@ -4,6 +4,7 @@
     <section class="main__hero">
       <div class="hero">
         <div class="hero__content animate">
+          <Breadcrumb />
           <p v-if="page.caption" class="hero__caption"><strong>{{ page.caption }}</strong></p>
           <template v-if="page.logo">
             <h1 class="hero__title"><img :src="page.logo" class="hero__logo" /></h1>
@@ -44,6 +45,12 @@
       },
       fullScreen() {
         return this.page.slug == 'index' || this.page.slug == 'contact'
+      }
+    },
+    methods: {
+      to() {
+        console.log(this.$router)
+        this.$router.go(-1)
       }
     },
     head() {
