@@ -1,9 +1,11 @@
 {
   "title": "Aristocrat London",
   "tagline": "Ecommerce website for a clothing designer",
+  "headline": "Ecommerce website for clothing designer",
   "correctPath": "/portfolio/aristocrat-london/",
   "slug": "aristocrat-london",
   "status": "live",
+  "datePublished": "2020-12-12",
   "action": {
     "link": "https://www.aristocratlondon.co.uk/",
     "title": "Preview Live",

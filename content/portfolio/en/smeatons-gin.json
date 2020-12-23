@@ -1,9 +1,11 @@
 {
   "title": "Smeaton's Gin",
   "tagline": "Responsive website of the alcohol distillery, which created a hand-made recipe discovered in Bristol archives from the 1970s under the name 'Bristol Method Dry Gin'",
+  "headline": "Website for the Bristol Method Dry Gin",
   "correctPath": "/portfolio/smeatons-gin/",
   "slug": "smeatons-gin",
   "status": "live",
+  "datePublished": "2020-12-12",
   "color": "#040323",
   "action": {
     "title": "Live Preview",

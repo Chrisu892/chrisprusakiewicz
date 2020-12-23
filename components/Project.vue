@@ -1,8 +1,19 @@
 <template>
-  <article class="project">
+  <article itemscope itemtype="https://schema.org/CreativeWork" class="project">
+    <meta itemprop="headline" :content="project.headline" />
+    <span itemprop="author" itemtype="https://schema.org/Person" itemscope>
+      <meta itemprop="name" content="Chris Prusakiewicz" />
+    </span>
+    <meta itemprop="datePublished" :content="project.datePublished" />
+    <meta itemprop="dateModified" :content="project.datePublished" />
+    <meta itemprop="mainEntityOfPage" content="Chris Prusakiewicz" />
+    <span itemprop="publisher" itemtype="https://schema.org/Organization" itemscope>
+      <meta itemprop="name" :content="project.title" />
+      <meta v-if="project.logo" itemprop="logo" :content="project.logo" />
+    </span>
     <picture>
       <source media="(max-width: 768px)" :srcset="project.thumbnail.small" />
-      <img :src="project.thumbnail.large" :alt="project.title" class="project__image" />
+      <img itemprop="image" :src="project.thumbnail.large" :alt="project.title" class="project__image" />
     </picture>
     <nuxt-link :to="localePath(project.correctPath)" title="View GinnyD Project" class="project__overlay">
       <h3 v-if="project.logo" class="project__title logo"><img :src="project.logo" :alt="project.title" /></h3>

@@ -1,9 +1,11 @@
 {
   "title": "Woodland Chase",
   "tagline": "Mobile-friendly website for a luxury woodland accommodation in Northumberland",
+  "headline": "Website for a woodland accommodation",
   "correctPath": "/portfolio/woodland-chase/",
   "slug": "woodland-chase",
   "status": "live",
+  "datePublished": "2020-12-12",
   "action": {
     "title": "Live Preview",
     "link": "https://www.woodlandchaseglamping.co.uk/",

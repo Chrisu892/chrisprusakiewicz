@@ -1,9 +1,11 @@
 {
   "title": "ARGLA",
   "tagline": "Responsive web design for the architectural glass and aluminium specialists in the County Durham",
+  "headline": "Website for Architectural Glass and Aluminium Specialists",
   "correctPath": "/portfolio/argla/",
   "slug": "argla",
   "status": "live",
+  "datePublished": "2020-12-12",
   "color": "#009494",
   "logo": "/images/portfolio/argla/argla-white-logo.png",
   "thumbnail": {

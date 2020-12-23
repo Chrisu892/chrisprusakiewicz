@@ -1,9 +1,11 @@
 {
   "title": "Ginny D",
   "tagline": "Jak przenieść swój biznes do internetu? Uruchom pięknie wykonaną witrynę e-commerce na zamówienie, w której możesz sprzedawać swoje produkty, usługi oraz karty podarunkowe!",
+  "headline": "Internetowy butik dla projektanta biżuterii",
   "correctPath": "/portfolio/ginnyd/",
   "slug": "ginnyd",
   "status": "live",
+  "datePublished": "2020-12-12",
   "color": "#fe0098",
   "logo": "/images/portfolio/ginnyd/ginnyd-logo.gif",
   "features": [

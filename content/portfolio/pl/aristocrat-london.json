@@ -1,9 +1,11 @@
 {
   "title": "Aristocrat London",
   "tagline": "Sklep internetowy dla projektanta odzieży",
+  "headline": "Sklep internetowy dla projektanta odzieży",
   "correctPath": "/portfolio/aristocrat-london/",
   "slug": "aristocrat-london",
   "status": "live",
+  "datePublished": "2020-12-12",
   "thumbnail": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"

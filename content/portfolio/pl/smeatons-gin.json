@@ -1,9 +1,11 @@
 {
   "title": "Smeaton's Gin",
   "tagline": "Responsywna strona internetowa gorzelni alkoholi, która stworzyła ręcznie robioną recepturę odkrytą w archiwach Bristolu z lat 70-tych pod nazwą „Bristol Method Dry Gin”",
+  "headline": "Strona internetowa dla gorzelni alkoholi",
   "correctPath": "/portfolio/smeatons-gin/",
   "slug": "smeatons-gin",
   "status": "live",
+  "datePublished": "2020-12-12",
   "color": "#040323",
   "action": {
     "title": "Zobacz witrynę",

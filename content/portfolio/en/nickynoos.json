@@ -1,9 +1,11 @@
 {
   "title": "Nicky Noo's",
   "tagline": "Quirky and mobile-friendly website to promote mobile bar rental for various events in and around Newcastle upon Tyne",
+  "headline": "Website for mobile bar rental specialists",
   "correctPath": "/portfolio/nickynoos/",
   "slug": "nickynoos",
   "status": "live",
+  "datePublished": "2020-12-12",
   "color": "#581e1c",
   "logo": "/images/portfolio/nickynoos/nickynoo-logo.png",
   "action": {

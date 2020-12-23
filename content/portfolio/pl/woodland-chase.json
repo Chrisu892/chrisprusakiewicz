@@ -1,9 +1,11 @@
 {
   "title": "Woodland Chase",
   "tagline": "Przyjazna dla urządzeń mobilnych strona internetowa oferująca luksusowe zakwaterowanie w lasach Northumberland",
+  "headline": "Strona internetowa dla luksusowego zakwaterowania w lasach Northumberland",
   "correctPath": "/portfolio/woodland-chase/",
   "slug": "woodland-chase",
   "status": "live",
+  "datePublished": "2020-12-12",
   "action": {
     "title": "Live Preview",
     "link": "https://www.woodlandchaseglamping.co.uk/",

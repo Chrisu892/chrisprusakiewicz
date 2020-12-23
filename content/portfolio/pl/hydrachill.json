@@ -1,9 +1,11 @@
 {
   "title": "HydraChill",
   "tagline": "Jak promować przyjazne dla środowiska stacje uzupełniania wody? Utwórz witrynę przyjazną dla urządzeń mobilnych, którą możesz odwiedzać w dowolnym miejscu!",
+  "headline": "Strona internetowa dla producenta maszyn do dystrybucji wody pitnej",
   "correctPath": "/portfolio/hydrachill/",
   "slug": "hydrachill",
   "status": "live",
+  "datePublished": "2020-12-12",
   "features": [
     "Indywidualny system zarządzania treścią",
     "Animuj w przewijanych animacjach CSS",

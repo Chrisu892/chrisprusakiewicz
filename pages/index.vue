@@ -49,7 +49,7 @@
     },
     head() {
       return {
-        title: `${this.page.correctPath != '/' ? this.page.title + ' : ' : ''}Chris Prusakiewicz : Professional Web Designer & Developer and Data Science student in the North East England`,
+        title: `${this.page.correctPath != '/' ? this.page.title + ' : ' : ''}${this.$t('metaTitle')}`,
         meta: [{
           property: 'og:title',
           content: this.page.title

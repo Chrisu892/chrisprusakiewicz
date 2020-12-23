@@ -1,9 +1,11 @@
 {
   "title": "ARGLA",
   "tagline": "Responsywne projektowanie stron internetowych dla specjalistów ds. Szkła architektonicznego i aluminium w hrabstwie Durham",
+  "headline": "Strona internetowa dla dla specjalistów ds. Szkła architektonicznego i aluminium",
   "correctPath": "/portfolio/argla/",
   "slug": "argla",
   "status": "live",
+  "datePublished": "2020-12-12",
   "color": "#009494",
   "logo": "/images/portfolio/argla/argla-white-logo.png",
   "thumbnail": {

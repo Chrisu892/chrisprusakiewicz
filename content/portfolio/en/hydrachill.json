@@ -1,9 +1,11 @@
 {
   "title": "HydraChill",
   "tagline": "How to promote environmentally-friendly water refilling stations? Create a mobile-friendly website that you can visit on the go!",
+  "headline": "Website for a water refilling stations manufacturer",
   "correctPath": "/portfolio/hydrachill/",
   "slug": "hydrachill",
   "status": "live",
+  "datePublished": "2020-12-12",
   "features": [
     "Bespoke Content Management System",
     "Animate on Scroll CSS Animations",
