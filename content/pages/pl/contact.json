@@ -1,13 +1,13 @@
 {
-  "title": "Skontaktuj sie",
+  "title": "Skontaktuj się",
   "navTitle": "Kontakt",
-  "tagline": "Jesli chcesz sie przywitac lub porozmawiac o swoim projekcie, prosze sie skontaktowac",
-  "status": "live",
+  "tagline": "Jeśli chcesz się przywitać lub porozmawiać o swoim projekcie, wyślij mi wiadomość",
   "correctPath": "/contact/",
+  "status": "live",
   "order": 3,
   "action": {
     "link": "mailto:chris.prusakiewicz@gmail.com",
-    "title": "Wyslij email",
+    "title": "Wyślij wiadomość",
     "external": true
   }
 }

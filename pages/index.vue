@@ -47,12 +47,6 @@
         return this.page.slug == 'index' || this.page.slug == 'contact'
       }
     },
-    methods: {
-      to() {
-        console.log(this.$router)
-        this.$router.go(-1)
-      }
-    },
     head() {
       return {
         title: `${this.page.correctPath != '/' ? this.page.title + ' : ' : ''}Chris Prusakiewicz : Professional Web Designer & Developer and Data Science student in the North East England`,
@@ -105,6 +99,7 @@
     height: 50%;
     position: relative;
     height: 100%;
+    transition: height 300ms ease;
 
     &::before {
       @include absolute-fill;
@@ -237,6 +232,12 @@
   }
 
   // Media queries
+
+  @media screen and (max-width: 1280px) {
+    .main.index .main__hero {
+      background: none;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     .hero__logo {

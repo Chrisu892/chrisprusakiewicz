@@ -34,6 +34,7 @@
     font-weight: $bold-weight;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 1.4;
     position: relative;
     transition: text-shadow 300ms ease;
 

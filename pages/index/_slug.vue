@@ -1,14 +1,21 @@
 <template>
   <div class="video" style="background:url('/images/work.jpg') center center/cover no-repeat;">
-    <video class="video__container" muted playsinline loop autoplay>
+    <Carousel />
+    <!-- <video class="video__container" muted playsinline loop autoplay>
       <source src="/video/hero.mp4" type="video/mp4" />
-    </video>
+    </video> -->
     <div class="video__overlay" />
   </div>
 </template>
 
 <script>
+  import Carousel from '@/components/Carousel'
+
   export default {
+    scrollToTop: true,
+    components: {
+      Carousel,
+    },
     async asyncData({ $content, store, app }) {
       const page = await $content(`pages/${app.i18n.locale}/index`)
         .where({ status: 'live' })
@@ -16,8 +23,7 @@
 
       store.dispatch('updatePage', page)
       store.dispatch('fetchPages')
-    },
-    scrollToTop: true,
+    }
   }
 </script>
 

@@ -23,8 +23,6 @@
 
 <style scoped lang="scss">
   .nav-toggle {
-    @include flex-row;
-    align-items: center;
     width: 2rem;
     height: 2rem;
     border: 0;
@@ -46,12 +44,23 @@
     span {
       border-bottom: solid 2px $clr-white;
       display: inline-block;
-      position: relative;
+      position: absolute;
+      left: 0;
       transition:
         transform 300ms ease-in-out,
         opacity 300ms ease-in-out;
       width: 100%;
       z-index: 1;
+
+      &:nth-child(1) {
+        top: 6px;
+      }
+      &:nth-child(2) {
+        top: 15px;
+      }
+      &:nth-child(3) {
+        bottom: 6px;
+      }
     }
 
     &.active span:nth-child(2) {
@@ -59,10 +68,10 @@
       opacity: 0;
     }
     &.active span:nth-child(1) {
-      transform: translateY(10px) rotate(45deg);
+      transform: translateY(9px) rotate(45deg);
     }
     &.active span:nth-child(3) {
-      transform: translateY(-10px) rotate(-45deg);
+      transform: translateY(-9px) rotate(-45deg);
     }
   }
 </style>
