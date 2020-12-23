@@ -96,7 +96,6 @@
       Button
     },
     async asyncData({ $content, store, params, app }) {
-      console.log(app.i18n.locale)
       const page = await $content(`portfolio/${app.i18n.locale}`)
         .where({ status: 'live', slug: params.slug })
         .fetch()

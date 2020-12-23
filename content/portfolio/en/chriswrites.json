@@ -13,15 +13,15 @@
   "title3": "Want to contribute?",
   "content3": "<p>I'm always looking for talented artists! If you want to help, promote your work or are looking for a way to improve your skills and earn money in the meantime, write to me on my e-mail:<a href = 'mailto:chris.prusakiewicz@gmail.com' target='_ blank'>chris.prusakiewicz@gmail.com</a>.</p>",
   "thumbnail": {
-    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "large": "/images/portfolio/chris-writes/chris-writes@2x.jpeg",
     "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
   },
   "headerImage": {
-    "large": "/images/portfolio/chris-writes/chris-writes.jpeg",
+    "large": "/images/portfolio/chris-writes/chris-writes@2x.jpeg",
     "small": "/images/portfolio/chris-writes/chris-writes.jpeg"
   },
   "introImage": {
-    "large": "/images/portfolio/chris-writes/home-browser-shot.png",
+    "large": "/images/portfolio/chris-writes/home-browser-shot@2x.png",
     "small": "/images/portfolio/chris-writes/home-browser-shot.png",
     "browserShot": true
   }
