@@ -1,34 +1,46 @@
 {
   "title": "Aristocrat London",
-  "tagline": "Ecommerce website for a fashion designer",
+  "tagline": "Ecommerce website for a clothing designer",
   "correctPath": "/portfolio/aristocrat-london/",
   "slug": "aristocrat-london",
-  "status": "draft",
-  "thumbnail": {
-    "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
-    "small": "/images/portfolio/aristocrat-london/thumb.jpg"
-  },
+  "status": "live",
   "action": {
     "link": "https://www.aristocratlondon.co.uk/",
     "title": "Preview Live",
     "external": true
   },
-  "image1": {
+  "headerImage": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
-  "title1": "Ecommerce website for a fashion designer",
-  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
-  "image2": {
+  "headerCutout": {
+    "large": "/images/portfolio/aristocrat-london/first@2x.png",
+    "small": "/images/portfolio/aristocrat-london/first.png"
+  },
+  "introImage": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
-  "title2": "Built to increase sales",
-  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
-  "image3": {
+  "introCutout": {
+    "large": "/images/portfolio/aristocrat-london/second@2x.png",
+    "small": "/images/portfolio/aristocrat-london/second.png"
+  },
+  "extraImage": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
-  "title3": "Optimised for Search Engines",
-  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
+  "extraCutout": {
+    "large": "/images/portfolio/aristocrat-london/extra-cutout@2x.png",
+    "small": "/images/portfolio/aristocrat-london/extra-cutout.png"
+  },
+  "thumbnail": {
+    "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
+    "small": "/images/portfolio/aristocrat-london/thumb.jpg"
+  },
+  "title1": "About the project",
+  "content1": "<p>With over 20 years of experience in the clothing industry, my client decided to open his own British fashion brand. The requirement was simple: design and build an e-commerce site to sell men's and women's clothing and accessories online. The seemingly difficult project turned out to be interesting as this was the first time I had the chance to design a website with features that can only be found on e-commerce sites. It was a different project than before, which required a lot, although the end result is comparable to the websites of clothing brands on the high streets in the city centres across the country.</p>",
+  "title2": "My Approach",
+  "content2": "<p>My client wanted a minimalist, black and white website design, similar to high-end brands. I have decided to use a monochromatic colour, to give it a simple, stylish look, in line with the colours in the client's clothing designs. This also enabled me to focus more on the layout and individual page components. Also, I found it easier to work with one colour.</p><p>I looked back into what I did for one of the UX modules during my studies at the university. We were tasked to design an e-commerce website that uses a mega-menu. Upon reflection, I did not see the point of having a large drop-down. Instead, I decided to build smaller dropdowns for each major category. When the user hovers over the link to the category page, they are presented with a list of subcategories and a thumbnail image, a teaser of what they can expect.</p><p>The site focuses heavily on the photographs of models, therefore I have decided to use HTML5 'picture' tag to load smaller and larger images for mobile and desktop devices. I made this decision because Google's guidelines recommend that every website should fully load within 3 seconds. Moreover, in order to optimise the site for Search Engines, I have added Structured Data to each product, so that each product is easily recognised by search algorithms.</p>",
+  "title3": "Fast and easy placing of orders",
+  "content3": "<p>The website is packed with features such as a search facility, interactive dialogues, cross-selling features, filters and much more. What I really like about this website is the user journey to place the order. I have integrated Opayo's payments service to seemingly process payments using the server integration. The website even automatically detects the card type, which is really handy!</p><p>This could be a long case study, but unfortunately, nobody has time to read long essays. That's why you should just press the 'Preview Live' button to see the website in action!</p>"
 }

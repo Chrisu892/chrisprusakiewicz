@@ -1,6 +1,6 @@
 {
   "title": "Smeaton's Gin",
-  "tagline": "Responsive website for a Bristol Method Dry Gin crafted to a hand-written 1870s gin recipe discovered in the historic Bristol Archives",
+  "tagline": "Responsive website of the alcohol distillery, which created a hand-made recipe discovered in Bristol archives from the 1970s under the name 'Bristol Method Dry Gin'",
   "correctPath": "/portfolio/smeatons-gin/",
   "slug": "smeatons-gin",
   "status": "live",
@@ -11,9 +11,11 @@
     "external": true
   },
   "title1": "Mobile-friendly website for gin distillery",
-  "content1": "<p>After successfully recreating the original Bristol Method Dry Gin found in the Bristol Archives, Smeaton’s decided to refresh the look and feel of their old website.</p><p>Smeaton’s wanted a mobile-friendly website that could tell the story about how they recreated the Bristol Method Dry Gin according to the original recipe.</p><p>After successfully recreating the original Bristol Method Dry Gin found in the Bristol Archives, Smeaton’s decided to refresh the look and feel of their old website.</p>",
+  "content1": "<p>After successfully recreating the original Bristol Method Dry Gin found in the Bristol Archives, Smeaton’s decided to refresh the look and feel of their old website.</p><p>Smeaton’s wanted a mobile-friendly website that could tell the story about how they recreated the Bristol Method Dry Gin according to the original recipe.</p>",
   "title2": "Designed to stand out",
-  "content2": "<p>Smeaton’s wanted a mobile-friendly website that could tell the story about how they recreated the Bristol Method Dry Gin according to the original recipe.</p><p>They wanted their website to match the branding of their new bottle packaging. They provided artwork that could make their website match their branding.</p><p>It has been a challenge to choose the right artwork from hundreds of illustrations. It was important to make sure each illustration featured on the website serves its purpose.</p>",
+  "content2": "<p>Smeaton's wanted their website to match the branding of their new bottle packaging. The client provided artwork whereas my task was to make the website out of provided resources.</p><p>It has been a challenge to choose the right artwork from hundreds of illustrations. It was important to make sure each illustration featured on the website serves its purpose.</p>",
+  "title3": "Results",
+  "content3": "<p>The website uses a content management system that enables the client to manage the website. We hope that the new website will enable them to promote their product to its fullest potential.</p>",
   "thumbnail": {
     "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
     "small": "/images/portfolio/smeatons-gin/thumb.jpg"

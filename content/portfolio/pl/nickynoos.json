@@ -1,0 +1,42 @@
+{
+  "title": "Nicky Noo's",
+  "tagline": "Ekscentryczna i przyjazna dla urządzeń mobilnych witryna internetowa promująca wypożyczalnie barów na różne imprezy w Newcastle upon Tyne i okolicach",
+  "correctPath": "/portfolio/nickynoos/",
+  "slug": "nickynoos",
+  "status": "live",
+  "color": "#581e1c",
+  "logo": "/images/portfolio/nickynoos/nickynoo-logo.png",
+  "action": {
+    "link": "https://www.nickynoo.co.uk/",
+    "title": "Zobacz witrynę",
+    "external": true
+  },
+  "title1": "Zwiększenie świadomości usług",
+  "content1": "<p>Nicky Noo's zapewnia w pełni zaopatrzone mobilne bary vintage na każdą okazję. Mój client zdecydował, że skorzystaliby na własnej stronie internetowej, która umożliwiłaby im promowanie swoich usług i informowania klientów o tym, co się dzieje.</p><p>Klient chciał stronę internetowa, która byłaby „dziwaczna” i pasowała do marki ich nowego menu napojów. Dodatkowo, chcieli oni pokazać najnowsze zdjęcia z Instagrama.</p>",
+  "title2": "Responsywne menu drinków na urządzenia mobilne",
+  "content2": "<p>Rozwiązaniem było pobranie ilustracji z ich menu napojów i wykorzystanie ich w projektowaniu stron internetowych. Kolorystyka została zainspirowana powszechnym kolorem, który pojawia się w klasycznych mobilnych barach. Podczas gdy ich galeria na Instagramie jest połączona z witryną za pośrednictwem interfejsu API Instagrama.</p><p>Wyzwaniem było, aby ich menu napojów wyglądało podobnie do wersji drukowanej. Problem polegał na tym, żeby wszystko reagowało. Jedną z opcji byłoby dodanie przycisku do pobierania dokumentu PDF, jednak jest to zbyt proste. Dlatego użyłem responsywnego systemu siatki do replikacji menu przy użyciu czystego kodu HTML i CSS. </p> <p> Pozwoliłoby to również klientowi na samodzielne zarządzanie napojami wyświetlanymi w menu w jego systemie zarządzania treścią. W ten sposób mogą dodawać i usuwać napoje lub ukrywać napoje, które są obecnie niedostępne.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/nickynoos/thumb@2x.jpg",
+    "small": "/images/portfolio/nickynoos/thumb.jpg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/nickynoos/masthead@2x.jpg",
+    "small": "/images/portfolio/nickynoos/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/nickynoos/first@2x.png",
+    "small": "/images/portfolio/nickynoos/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/nickynoos/intro-image@2x.jpg",
+    "small": "/images/portfolio/nickynoos/intro-image.jpg"
+  },
+  "extraImage": {
+    "large": "/images/portfolio/nickynoos/thumb@2x.jpg",
+    "small": "/images/portfolio/nickynoos/thumb.jpg"
+  },
+  "extraCutout": {
+    "large": "/images/portfolio/nickynoos/responsive-menu@2x.png",
+    "small": "/images/portfolio/nickynoos/responsive-menu.png"
+  }
+}

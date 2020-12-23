@@ -1,34 +1,46 @@
 {
   "title": "Aristocrat London",
-  "tagline": "Sklep internetowy dla projektanta odziezy",
+  "tagline": "Sklep internetowy dla projektanta odzieży",
   "correctPath": "/portfolio/aristocrat-london/",
   "slug": "aristocrat-london",
-  "status": "draft",
+  "status": "live",
   "thumbnail": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
   "action": {
     "link": "https://www.aristocratlondon.co.uk/",
-    "title": "Zobacz Strone",
+    "title": "Zobacz Stronę",
     "external": true
   },
-  "image1": {
+  "headerImage": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
-  "title1": "Sklep internetowy dla projektanta odziezy",
-  "content1": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
-  "image2": {
+  "headerCutout": {
+    "large": "/images/portfolio/aristocrat-london/first@2x.png",
+    "small": "/images/portfolio/aristocrat-london/first.png"
+  },
+  "introImage": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
-  "title2": "Zaprojektowany aby zmaksymalizowac sprzedaz",
-  "content2": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>",
-  "image3": {
+  "introCutout": {
+    "large": "/images/portfolio/aristocrat-london/second@2x.png",
+    "small": "/images/portfolio/aristocrat-london/second.png"
+  },
+  "extraImage": {
     "large": "/images/portfolio/aristocrat-london/thumb@2x.jpg",
     "small": "/images/portfolio/aristocrat-london/thumb.jpg"
   },
-  "title3": "Zoptymalizowany dla wyszukiwarek stron internetowych",
-  "content3": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa voluptates ullam quibusdam debitis eveniet assumenda eaque consequuntur quos! Magnam atque soluta perspiciatis laborum iste odit voluptatem consectetur accusantium deserunt?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facilis nemo laudantium et saepe iste, maiores cumque eum, officiis commodi porro similique expedita perferendis accusantium quidem assumenda nisi. Dignissimos, temporibus!</p>"
+  "extraCutout": {
+    "large": "/images/portfolio/aristocrat-london/extra-cutout@2x.jpg",
+    "small": "/images/portfolio/aristocrat-london/extra-cutout.jpg"
+  },
+  "title1": "Na temat projektu",
+  "content1": "<p>Mając ponad 20-letnie doświadczenie w branży odzieżowej, mój klient zdecydował się otworzyć własną brytyjską markę modową. Wymóg był prosty: zaprojektować i zbudować witrynę e-commerce do sprzedaży online odzieży męskiej i damskiej oraz akcesoriów. Pozornie trudny projekt okazał się interesujący, ponieważ po raz pierwszy miałem okazję zaprojektować stronę internetową z funkcjami, które można znaleźć tylko w witrynach e-commerce. To był inny projekt niż dotychczas, który wymagał wiele, choć efekt końcowy porównywalny jest do stron internetowych marek odzieżowych przy głównych ulicach centrów miast w całym kraju.</p>",
+  "title2": "Moje podejście",
+  "content2": "<p>Mój klient chciał mieć minimalistyczny, czarno-biały projekt strony internetowej, podobny do marek z wyższej półki. Zdecydowałem się na kolor monochromatyczny, aby nadać mu prosty, stylowy wygląd, zgodny z kolorystyką projektów odzieży klienta. Umożliwiło mi to również skupienie się bardziej na układzie i poszczególnych składnikach strony, ponieważ łatwiej mi było pracować z jednym kolorem.</p><p>Wróciłem do tego, co zrobiłem dla jednego z modułów UX podczas studiów na uniwersytecie. Otrzymaliśmy zadanie zaprojektowania serwisu e-commerce, który wykorzystuje mega-menu. Po zastanowieniu nie widziałem sensu posiadania dużego menu. Zamiast tego zdecydowałem się utworzyć mniejsze listy rozwijane dla każdej głównej kategorii. Gdy użytkownik najedzie kursorem na łącze do strony kategorii, zostanie wyświetlona lista podkategorii i miniatura, która jest zapowiedzią tego, czego użytkownik może się spodziewać.</p><p>Witryna koncentruje się głównie na zdjęciach modeli, dlatego zdecydowałem się użyć tagu HTML5 'picture' do ładowania mniejszych i większych obrazów na urządzenia mobilne i stacjonarne. Podjąłem taką decyzję, ponieważ wytyczne Google zalecają pełne załadowanie każdej witryny w ciągu 3 sekund. Ponadto, aby zoptymalizować witrynę pod kątem wyszukiwarek, dodałem dane strukturalne do każdego produktu, aby każdy produkt był łatwo rozpoznawany przez algorytmy wyszukiwania.</p>",
+  "title3": "Szybkie i łatwe składanie zamówień",
+  "content3": "<p>Witryna jest wyposażona w funkcje, takie jak wyszukiwarka, interaktywne dialogi, funkcje sprzedaży krzyżowej, filtry i wiele innych. To, co naprawdę podoba mi się w tej witrynie, to podróż użytkownika w celu złożenia zamówienia. Zintegrowałem usługę płatności Opayo, aby pozornie przetwarzać płatności przy użyciu integracji z serwerem. Witryna automatycznie wykrywa typ karty, co jest naprawdę przydatne!</p><p>To może być długie studium przypadku, ale niestety nikt nie ma czasu na czytanie długich esejów. Dlatego wystarczy nacisnąć przycisk „Podgląd na żywo”, aby zobaczyć witrynę w akcji!</p>"
 }

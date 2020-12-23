@@ -1,0 +1,38 @@
+{
+  "title": "Sportbottle",
+  "tagline": "Jak budować świadomość marki butelek wielokrotnego użytku? Stwórz specjalnie dostosowaną, przyjazną dla urządzeń mobilnych witrynę internetową, która pozwoli użytkownikom dostosowywać i zamawiać własne butelki",
+  "correctPath": "/portfolio/sportbottle/",
+  "slug": "sportbottle",
+  "status": "live",
+  "action": {
+    "title": "Zobacz witrynę",
+    "link": "https://www.sportbottle.co.uk/",
+    "external": true
+  },
+  "title1": "Trwałe butelki na wodę wielokrotnego użytku",
+  "content1": "<p>SportBottle to producent butelek na wodę wielokrotnego użytku, który działa w Wielkiej Brytanii i Irlandii. Po latach udanej obecności na rynku zdecydowali się odświeżyć wygląd swojej starej witryny.</p>",
+  "title2": "Na temat SportBottle",
+  "content2": "<p>Misją SportBottle jest zmniejszenie ilości plastiku jednorazowego użytku. Mają na celu zapewnienie rozwiązania problemu zanieczyszczenia plastikiem, który niszczy naszą planetę. Dlatego klient chciał mieć witrynę internetową, która informowałaby ludzi o ich celach i pokazałaby, jak butelka na wodę wielokrotnego użytku może pomóc ocalić planetę. </p> <p> Kiedy SportBottle zdecydował się dodać niestandardowy konstruktor butelek, z którego użytkownicy mogliby budować własne butelki i zamawiać je, stanęliśmy w obliczu komplikacji. Jak zbudować złożoną funkcję, która jest zarówno interaktywna, jak i reaguje na różne rozmiary ekranu?</p>",
+  "title3": "Wynik",
+  "content3": "<p>Gotowy produkt to przyjazna dla urządzeń mobilnych, zoptymalizowana pod kątem SEO strona internetowa, która robi dokładnie to, czego wymagał klient. Ich klienci mogą dostosowywać butelki, składać zamówienia i płacić online bezpośrednio na swojej stronie internetowej. To daje SportBottle nie tylko stronę internetową, ale także system, który pozwala im śledzić i zarządzać złożonymi zamówieniami.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/sportbottle/thumb@2x.jpg",
+    "small": "/images/portfolio/sportbottle/thumb.jpg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/sportbottle/masthead@2x.jpg",
+    "small": "/images/portfolio/sportbottle/masthead.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/sportbottle/first@2x.png",
+    "small": "/images/portfolio/sportbottle/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/sportbottle/masthead@2x.jpg",
+    "small": "/images/portfolio/sportbottle/masthead.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/sportbottle/second@2x.png",
+    "small": "/images/portfolio/sportbottle/second.png"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Smeaton's Gin",
+  "tagline": "Responsywna strona internetowa gorzelni alkoholi, która stworzyła ręcznie robioną recepturę odkrytą w archiwach Bristolu z lat 70-tych pod nazwą „Bristol Method Dry Gin”",
+  "correctPath": "/portfolio/smeatons-gin/",
+  "slug": "smeatons-gin",
+  "status": "live",
+  "color": "#040323",
+  "action": {
+    "title": "Zobacz witrynę",
+    "link": "https://www.smeatons-gin.com/",
+    "external": true
+  },
+  "title1": "Przyjazna dla urządzeń mobilnych witryna destylarni dżinu",
+  "content1": "<p>Po pomyślnym odtworzeniu oryginalnego Bristol Method Dry Gin znalezionego w Bristol Archives, Smeaton zdecydował się odświeżyć wygląd swojej starej strony internetowej.</p><p>Smeaton potrzebował strony przyjaznej dla urządzeń mobilnych, która mogłaby opowiedzieć historię o tym, jak odtworzyli Bristol Method Dry Gin zgodnie z oryginalną recepturą.</p>",
+  "title2": "Zaprojektowana, aby się wyróżniać",
+  "content2": "<p>Smeaton's chciał, aby ich strona internetowa pasowała do marki ich nowego opakowania na butelki. Klient dostarczył grafikę, podczas gdy moim zadaniem było stworzenie strony internetowej z dostarczonych zasobów. </p> <p> Wyzwaniem był wybór odpowiedniej grafiki spośród setek ilustracji. Ważne było, aby upewnić się, że każda ilustracja na stronie spełnia swoje zadanie.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
+    "small": "/images/portfolio/smeatons-gin/thumb.jpg"
+  },
+  "title3": "Wynik",
+  "content3": "<p>Strona internetowa korzysta z systemu zarządzania treścią, który umożliwia klientowi zarządzanie jej treścią. Mamy nadzieję, że nowa strona internetowa umożliwi im pełną promocję ich produktu.</p>",
+  "headerImage": {
+    "large": "/images/portfolio/smeatons-gin/thumb@2x.jpg",
+    "small": "/images/portfolio/smeatons-gin/thumb.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/smeatons-gin/first@2x.png",
+    "small": "/images/portfolio/smeatons-gin/first.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/smeatons-gin/header@2x.jpg",
+    "small": "/images/portfolio/smeatons-gin/header.jpg"
+  },
+  "introCutout": {
+    "large": "/images/portfolio/smeatons-gin/iphone@2x.png",
+    "small": "/images/portfolio/smeatons-gin/iphone.png",
+    "adjust": "small"
+  }
+}

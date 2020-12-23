@@ -1,6 +1,6 @@
 {
   "title": "Nicky Noo's",
-  "tagline": "Quirky mobile-friendly website to promote mobile bar hire specialists in Newcastle",
+  "tagline": "Quirky and mobile-friendly website to promote mobile bar rental for various events in and around Newcastle upon Tyne",
   "correctPath": "/portfolio/nickynoos/",
   "slug": "nickynoos",
   "status": "live",
@@ -12,9 +12,9 @@
     "external": true
   },
   "title1": "Increasing awareness of services",
-  "content1": "<p>Nicky Noo's provides fully stocked vintage bars for all occasions. They decided that they would benefit from having their own website to promote their services and keep their clients informed about things that are happening at Nicky Noo.</p><p>The client wanted a website that is ‘quirky’, matches the branding of their new drinks menu and shows the latest photos from Instagram.</p>",
-  "title2": "Responsive drinks menu",
-  "content2": "<p>The solution was to get the illustrations from their drinks menu and use them in web design. The colour scheme was inspired by the common colour that appears in their vintage bars. Whereas their Instagram gallery is hooked up with the website through Instagram API.</p><p>It has been a challenge to make their drinks menu look similar to the printed version. The problem was to make it all responsive. One option would be to include a button to download a PDF document, however that’s too easy. Thus, I used a responsive grid system to replicate the menu using pure HTML and CSS code.</p><p>Doing so, would also enable the client to manage drinks shown on the menu themselves in their CMS. This way, they can add and remove drinks or hide drinks that are currently unavailable.</p>",
+  "content1": "<p>Nicky Noo's provides fully-stocked mobile vintage bars for any occasion. My client decided that they would use their own website which would enable them to promote their services and inform clients about what was going on.</p><p>The client wanted a website that was 'quirky' and fit with the branding of their new drink menu. Additionally, they wanted to show the latest Instagram photos.</p>",
+  "title2": "Responsive drinks menu for mobile devices",
+  "content2": "<p>The solution was to get the illustrations from their drinks menu and use them in web design. The colour scheme was inspired by the common colour that appears in their vintage mobile bars. Whereas their Instagram gallery is hooked up with the website through Instagram API.</p><p>It has been a challenge to make their drinks menu look similar to the printed version. The problem was to make it all responsive. One option would be to include a button to download a PDF document, however, that’s too easy. Thus, I used a responsive grid system to replicate the menu using pure HTML and CSS code.</p><p>Doing so would also enable the client to manage drinks shown on the menu themselves in their Content Management System. This way, they can add and remove drinks or hide drinks that are currently unavailable.</p>",
   "thumbnail": {
     "large": "/images/portfolio/nickynoos/thumb@2x.jpg",
     "small": "/images/portfolio/nickynoos/thumb.jpg"

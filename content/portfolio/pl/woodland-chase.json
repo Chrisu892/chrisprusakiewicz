@@ -1,0 +1,42 @@
+{
+  "title": "Woodland Chase",
+  "tagline": "Przyjazna dla urządzeń mobilnych strona internetowa oferująca luksusowe zakwaterowanie w lasach Northumberland",
+  "correctPath": "/portfolio/woodland-chase/",
+  "slug": "woodland-chase",
+  "status": "live",
+  "action": {
+    "title": "Live Preview",
+    "link": "https://www.woodlandchaseglamping.co.uk/",
+    "external": true
+  },
+  "title1": "Na temat projektu",
+  "content1": "<p>Woodland Chase to firma rodzinna, która oferuje zakwaterowanie na wsi w jednym z ręcznie wykonanych domków na drzewie lub chatkach. Szukali projektanta stron internetowych, który mógłby stworzyć stronę internetową promującą ich firmę i umożliwić ludziom łatwe sprawdzanie dostępności zakwaterowania, a następnie rezerwację. </p> <p> Moją rolą w tym projekcie było przekształcenie szablonów HTML i CSS w dynamiczne strony internetowe z interaktywnymi funkcjami, takimi jak kalendarz rezerwacji i integracja z SagePay do przetwarzania płatności online.</p>",
+  "title2": "Indywidualny system rezerwacji online",
+  "content2": "<p>Klient chciał mieć w swojej witrynie internetowej niestandardowe i „ręcznie wykonane” funkcje, które pasowałyby do jego modelu biznesowego. Chcieliśmy również, aby system rezerwacji pasował do wyglądu i sposobu działania strony internetowej, a istniejące wtyczki nie spełniały tego wymagania. </p> <p> System rezerwacji wymagał dużo planowania i testów. System powinien być wystarczająco inteligentny, aby dowiedzieć się, które daty są dostępne, a które nie. Ponadto konieczne było upewnienie się, że wybór użytkownika spełnia minimalną liczbę nocy, a niedostępne terminy są wyłączone. </p> <p> Ludzie powinni być w stanie zapłacić za rezerwację, dlatego użyliśmy SagePay jako naszej preferowanej dostawca płatności. Integracja tej usługi nie była łatwa i udało nam się upewnić, że wszystkie płatności przebiegają bezpiecznie.</p>",
+  "title3": "Efektem końcowym jest strona internetowa ze stylem",
+  "content3": "<p>Gotowy produkt to responsywna strona internetowa, która nie tylko jest zoptymalizowana pod kątem SEO, ale zawiera również elementy wykonane na zamówienie, „ręcznie robione”, z których Woodland Chase jest tak dumny.</p><p>To był trudny projekt, który nauczył mnie dużo o systemach rezerwacji i przetwarzaniu płatności i mam nadzieję, że ich nowa strona internetowa będzie im dobrze służyć w przyszłości.</p>",
+  "thumbnail": {
+    "large": "/images/portfolio/woodland-chase/thumb@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/thumb.jpg"
+  },
+  "headerImage": {
+    "large": "/images/portfolio/woodland-chase/header@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/header.jpg"
+  },
+  "headerCutout": {
+    "large": "/images/portfolio/woodland-chase/laptop@2x.png",
+    "small": "/images/portfolio/woodland-chase/laptop.png"
+  },
+  "introImage": {
+    "large": "/images/portfolio/woodland-chase/large-image@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/large-image.jpg"
+  },
+  "extraImage": {
+    "large": "/images/portfolio/woodland-chase/header@2x.jpg",
+    "small": "/images/portfolio/woodland-chase/header.jpg"
+  },
+  "extraCutout": {
+    "large": "/images/portfolio/woodland-chase/third@2x.png",
+    "small": "/images/portfolio/woodland-chase/third.png"
+  }
+}
