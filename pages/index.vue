@@ -14,6 +14,7 @@
         </div>
         <div v-if="page.action" class="hero__actions animate delay">
           <Button :action="page.action" />
+          <div v-if="page.action.downloadSize" class="hero__download-size">Download size: {{ page.action.downloadSize }}</div>
         </div>
       </div>
     </section>
@@ -152,7 +153,14 @@
     line-height: 1.5;
   }
   .hero__actions {
+    display: inline-block;
     margin-top: 2rem;
+  }
+  .hero__download-size {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 0.75em;
+    margin-top: 0.5rem;
   }
 
   // Enter-Leave Animations
@@ -274,6 +282,15 @@
 
     .hero {
       padding: 12rem 4rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .hero__title {
+      font-size: 2.25em;
+    }
+    .hero__tagline {
+      font-size: 1.125em;
     }
   }
 </style>

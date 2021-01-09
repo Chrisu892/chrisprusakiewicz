@@ -1,0 +1,8 @@
+{
+  "title": "Lego",
+  "description": "I felt like a NASA engineer assembling this huge Lego model of the Saturn V rocket!",
+  "status": "live",
+  "image": {
+    "large": "/images/gallery/lego-saturn-5.jpeg"
+  }
+}

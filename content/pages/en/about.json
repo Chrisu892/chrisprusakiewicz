@@ -1,0 +1,22 @@
+{
+  "title": "About",
+  "navTitle": "About",
+  "tagline": "Chris is a web designer and developer at Edward Robertson. Currently, he is preparing for Masters in Computer and Data Science and wants to become an ethical data scientist.",
+  "correctPath": "/about/",
+  "status": "live",
+  "order": 3,
+  "action": {
+    "link": "/files/ChrisPrusakiewiczCV.pdf",
+    "title": "Download CV",
+    "external": true,
+    "downloadSize": "79KB"
+  },
+  "image": {
+    "large": "/images/about-photo.jpg",
+    "small": "/images/about-photo--768px.jpg"
+  },
+  "headerImage": {
+    "large": "/images/about-photo.jpg",
+    "small": "/images/about-photo--768px.jpg"
+  }
+}

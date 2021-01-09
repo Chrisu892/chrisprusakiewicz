@@ -68,7 +68,7 @@
     color: $clr-white;
     margin: 0;
     padding: 0;
-    width: 33.333%;
+    width: 25%;
     overflow: hidden;
     position: relative;
   }
@@ -121,7 +121,7 @@
       @include flex-column;
     }
     .nav__list__item {
-      height: 33.333%;
+      height: 25%;
       width: 100%;
     }
     .nav__list__link span {

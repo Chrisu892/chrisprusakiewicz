@@ -4,7 +4,7 @@
   "tagline": "If you want to say hi or talk about your project please send me a message",
   "correctPath": "/contact/",
   "status": "live",
-  "order": 3,
+  "order": 4,
   "action": {
     "link": "mailto:chris.prusakiewicz@gmail.com",
     "title": "Send a Message",

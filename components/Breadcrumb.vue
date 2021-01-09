@@ -4,8 +4,8 @@
     class="reset--list breadcrumb"
     itemscope
     itemtype="https://schema.org/BreadcrumbList">
-    <template v-for="(crumb, idx) in crumbs">
       <li
+        v-for="(crumb, idx) in crumbs"
         :key="idx"
         class="breadcrumb__item"
         itemprop="itemListElement"
@@ -21,7 +21,6 @@
         </nuxt-link>
         <meta itemprop="position" content="1" />
       </li>
-    </template>
   </ul>
 </template>
 

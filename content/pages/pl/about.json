@@ -1,0 +1,22 @@
+{
+  "title": "O mnie",
+  "navTitle": "O mnie",
+  "tagline": "Chris jest projektantem i programistą stron internetowych w firmie Edward Robertson. Obecnie przygotowuje się do studiów magisterskich z informatyki i nauki o danych i chce zostać etycznym badaczem danych.",
+  "correctPath": "/about/",
+  "status": "live",
+  "order": 3,
+  "action": {
+    "link": "/files/ChrisPrusakiewiczCV.pdf",
+    "title": "Download CV",
+    "external": true,
+    "downloadSize": "79KB"
+  },
+  "image": {
+    "large": "/images/about-photo.jpg",
+    "small": "/images/about-photo--768px.jpg"
+  },
+  "headerImage": {
+    "large": "/images/about-photo.jpg",
+    "small": "/images/about-photo--768px.jpg"
+  }
+}
