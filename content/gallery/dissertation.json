@@ -3,6 +3,7 @@
   "description": "The moment you are ready to submit one year of work for grading!",
   "status": "live",
   "image": {
-    "large": "/images/gallery/dissertation.jpeg"
+    "large": "/images/gallery/dissertation.jpeg",
+    "small": "/images/gallery/dissertation--768px.jpeg"
   }
 }

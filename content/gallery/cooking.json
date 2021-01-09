@@ -3,6 +3,7 @@
   "description": "One Halloween night, I decided to treat myself and my friends to homemade baby pumpkin dinner.",
   "status": "live",
   "image": {
-    "large": "/images/gallery/cooking.jpeg"
+    "large": "/images/gallery/cooking.jpeg",
+    "small": "/images/gallery/cooking--768px.jpeg"
   }
 }

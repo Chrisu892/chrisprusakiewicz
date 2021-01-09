@@ -3,6 +3,7 @@
   "description": "I find playing chess as an entertaining and excellent brain exercise",
   "status": "live",
   "image": {
-    "large": "/images/gallery/chess.jpeg"
+    "large": "/images/gallery/chess.jpeg",
+    "small": "/images/gallery/chess--768px.jpeg"
   }
 }

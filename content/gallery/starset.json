@@ -3,6 +3,7 @@
   "description": "It was amazing to sing my favorite songs along with hundreds of other people!",
   "status": "live",
   "image": {
-    "large": "/images/gallery/starset.jpeg"
+    "large": "/images/gallery/starset.jpeg",
+    "small": "/images/gallery/starset--768px.jpeg"
   }
 }

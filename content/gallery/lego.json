@@ -3,6 +3,7 @@
   "description": "I felt like a NASA engineer assembling this huge Lego model of the Saturn V rocket!",
   "status": "live",
   "image": {
-    "large": "/images/gallery/lego-saturn-5.jpeg"
+    "large": "/images/gallery/lego-saturn-5.jpeg",
+    "small": "/images/gallery/lego-saturn-5--768px.jpeg"
   }
 }

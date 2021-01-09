@@ -3,6 +3,7 @@
   "description": "Taking a break to read a book while sipping my favorite coffee!",
   "status": "live",
   "image": {
-    "large": "/images/gallery/first-man.jpeg"
+    "large": "/images/gallery/first-man.jpeg",
+    "small": "/images/gallery/first-man--768px.jpeg"
   }
 }

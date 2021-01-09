@@ -3,6 +3,7 @@
   "description": "Running on Saturday morning alongside the coast is full of surprises!",
   "status": "live",
   "image": {
-    "large": "/images/gallery/departure.jpeg"
+    "large": "/images/gallery/departure.jpeg",
+    "small": "/images/gallery/departure--768px.jpeg"
   }
 }

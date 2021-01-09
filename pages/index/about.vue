@@ -13,6 +13,7 @@
     <section v-if="gallery" class="gallery">
       <article v-for="(post, idx) in gallery" :key="idx" class="gallery__image">
         <picture>
+          <source media="(max-width:768px)" :srcset="post.image.small" />
           <img :src="post.image.large" :alt="post.title" class="gallery__image__source" />
         </picture>
         <div v-if="post.description" class="gallery__image__overlay">
